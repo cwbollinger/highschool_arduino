@@ -1,0 +1,276 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378780321671
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378780354398
+opened,view,org.tigris.subversion.subclipse.ui,1.8.19,"org.tigris.subversion.subclipse.ui.repository.RepositoriesView",1378780358343
+opened,view,org.eclipse.team.ui,3.6.101.R37x_v20111109-0800,"org.eclipse.team.ui.GenericHistoryView",1378780358444
+activated,perspective,org.tigris.subversion.subclipse.ui,1.8.19,"org.tigris.subversion.subclipse.ui.svnPerspective",1378780358485
+activated,view,org.tigris.subversion.subclipse.ui,1.8.19,"org.tigris.subversion.subclipse.ui.repository.RepositoriesView",1378780358500
+activated,perspective,com.vectrace.MercurialEclipse,2.1.0.201304290948,"com.vectrace.MercurialEclipse.Perspective",1378780359138
+activated,view,com.vectrace.MercurialEclipse,2.1.0.201304290948,"com.vectrace.MercurialEclipse.repository.RepositoriesView",1378780359146
+activated,perspective,org.tigris.subversion.subclipse.ui,1.8.19,"org.tigris.subversion.subclipse.ui.svnPerspective",1378780360260
+activated,view,org.tigris.subversion.subclipse.ui,1.8.19,"org.tigris.subversion.subclipse.ui.repository.RepositoriesView",1378780360269
+activated,perspective,com.vectrace.MercurialEclipse,2.1.0.201304290948,"com.vectrace.MercurialEclipse.Perspective",1378780360953
+activated,view,com.vectrace.MercurialEclipse,2.1.0.201304290948,"com.vectrace.MercurialEclipse.repository.RepositoriesView",1378780360963
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378780363012
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1378780381166
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378780383447
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378780389362
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378780398335
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.newWizard",1378780398355
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378780403438
+error,log,,,". Command line: hg -y debuginstall, error code: -1",1378780408125
+error,log,,,". Command line: hg -y debuginstall, error code: -1",1378780408238
+error,log,,,". Command line: hg -y debuginstall, error code: -1",1378780461374
+error,log,,,". Command line: hg -y debuginstall, error code: -1",1378780502165
+error,log,,,". Command line: hg -y debuginstall, error code: -1",1378780529944
+error,log,,,". Command line: hg -y debuginstall, error code: -1",1378780551218
+error,log,,,"Clone operation failed",1378780551345
+error,log,,,". Command line: hg -y debuginstall, error code: -1",1378780555163
+error,log,,,". Command line: hg -y debuginstall, error code: -1",1378780555277
+error,log,,,". Command line: hg -y debuginstall, error code: -1",1378780569588
+error,log,,,". Command line: hg -y debuginstall, error code: -1",1378780572608
+error,log,,,"Clone operation failed",1378780572707
+error,log,,,". Command line: hg -y debuginstall, error code: -1",1378780576210
+error,log,,,". Command line: hg -y debuginstall, error code: -1",1378780576227
+error,log,,,". Command line: hg -y debuginstall, error code: -1",1378780579585
+error,log,,,"Clone operation failed",1378780579669
+error,log,,,". Command line: hg -y debuginstall, error code: -1",1378780686447
+error,log,,,". Command line: hg -y debuginstall, error code: -1",1378780686561
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1378780696541
+error,log,,,". Command line: hg -y debuginstall, error code: -1",1378780922518
+error,log,,,"Clone operation failed",1378780922607
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1378780927613
+error,log,,,". Command line: hg -y debuginstall, error code: -1",1378781822865
+error,log,,,". Command line: hg -y debuginstall, error code: -1",1378781823029
+error,log,,,"Clone operation failed",1378782483548
+started,bundle,org.tigris.subversion.clientadapter.javahl,1.7.9,"org.tigris.subversion.clientadapter.javahl",1378782506537
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378782508875
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378782509999
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378782601231
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378782606485
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378782636099
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378782639116
+started,bundle,org.eclipse.cdt.managedbuilder.ui,8.0.2.201202111925,"org.eclipse.cdt.managedbuilder.ui",1378782643919
+started,bundle,org.eclipse.cdt.managedbuilder.gnu.ui,8.0.2.201202111925,"org.eclipse.cdt.managedbuilder.gnu.ui",1378782644039
+started,bundle,org.eclipse.cdt.build.crossgcc,1.0.2.201202111925,"org.eclipse.cdt.build.crossgcc",1378782644510
+started,bundle,org.eclipse.linuxtools.cdt.autotools.ui,1.0.1.201202152032,"org.eclipse.linuxtools.cdt.autotools.ui",1378782644752
+started,bundle,it.baeyens.avreclipse.ui,4.0.8,"it.baeyens.avreclipse.ui",1378782644972
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378782658757
+activated,perspective,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.CPerspective",1378782661288
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1378782661298
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378782664134
+started,bundle,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui",1378782677674
+started,bundle,org.eclipse.cdt.debug.core,7.1.0.201202111925,"org.eclipse.cdt.debug.core",1378782677898
+started,bundle,org.eclipse.cdt.debug.ui,7.1.2.201202111925,"org.eclipse.cdt.debug.ui",1378782677920
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378782679519
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378782681844
+opened,editor,org.eclipse.ui.editors,3.7.0.v20110928-1504,"org.eclipse.ui.DefaultTextEditor",1378782693366
+activated,editor,org.eclipse.ui.editors,3.7.0.v20110928-1504,"org.eclipse.ui.DefaultTextEditor",1378782693428
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378782703932
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378782705246
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378782706837
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378782986497
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378782989732
+closed,editor,org.eclipse.ui.editors,3.7.0.v20110928-1504,"org.eclipse.ui.DefaultTextEditor",1378782989732
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378782997888
+started,bundle,org.eclipse.ui.externaltools,3.2.0.v20111007_r372,"org.eclipse.ui.externaltools",1378783002918
+started,bundle,org.eclipse.core.externaltools,1.0.100.v20111007_r372,"org.eclipse.core.externaltools",1378783011854
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783011886
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1378783011916
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783017767
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783019485
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1378783019505
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1378783019505
+activated,perspective,com.vectrace.MercurialEclipse,2.1.0.201304290948,"com.vectrace.MercurialEclipse.Perspective",1378783022365
+activated,view,com.vectrace.MercurialEclipse,2.1.0.201304290948,"com.vectrace.MercurialEclipse.repository.RepositoriesView",1378783022384
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783025589
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783031626
+activated,view,com.vectrace.MercurialEclipse,2.1.0.201304290948,"com.vectrace.MercurialEclipse.views.MergeView",1378783032103
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783032851
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783147312
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783148986
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783163110
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.newWizard",1378783163131
+activated,view,com.vectrace.MercurialEclipse,2.1.0.201304290948,"com.vectrace.MercurialEclipse.repository.RepositoriesView",1378783167804
+opened,editor,org.eclipse.ui.editors,3.7.0.v20110928-1504,"org.eclipse.ui.DefaultTextEditor",1378783171132
+activated,editor,org.eclipse.ui.editors,3.7.0.v20110928-1504,"org.eclipse.ui.DefaultTextEditor",1378783171187
+activated,view,com.vectrace.MercurialEclipse,2.1.0.201304290948,"com.vectrace.MercurialEclipse.repository.RepositoriesView",1378783174126
+closed,editor,org.eclipse.ui.editors,3.7.0.v20110928-1504,"org.eclipse.ui.DefaultTextEditor",1378783174127
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783181840
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783183833
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783186071
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783204914
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783205386
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783210230
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783211059
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783215271
+activated,perspective,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.CPerspective",1378783220129
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378783220141
+activated,perspective,com.vectrace.MercurialEclipse,2.1.0.201304290948,"com.vectrace.MercurialEclipse.Perspective",1378783224262
+activated,view,com.vectrace.MercurialEclipse,2.1.0.201304290948,"com.vectrace.MercurialEclipse.repository.RepositoriesView",1378783224280
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783227381
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783282604
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783285381
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783328020
+activated,perspective,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.CPerspective",1378783330026
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378783330044
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783336830
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783422439
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1378783422476
+opened,view,org.eclipse.cdt.make.ui,7.1.2.201202111925,"org.eclipse.cdt.make.ui.views.MakeView",1378783430315
+activated,view,org.eclipse.cdt.make.ui,7.1.2.201202111925,"org.eclipse.cdt.make.ui.views.MakeView",1378783430388
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378783444674
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783456724
+started,bundle,org.eclipse.cdt.launch,7.0.0.201202111925,"org.eclipse.cdt.launch",1378783466772
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783487298
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378783497273
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378783497348
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378783508641
+closed,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378783508641
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783513271
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783519623
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1378783519644
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783521733
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783526057
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1378783526082
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783532599
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783540558
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1378783540590
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783544856
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783566558
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783569774
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783576016
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1378783576039
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783585815
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783590903
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1378783590933
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783594676
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783626616
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783634676
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783634892
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1378783634962
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378783638371
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815121024
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815158836
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815200527
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1378815200555
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815203304
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815210943
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1378815210968
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815220646
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815262105
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.newWizard",1378815262130
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815269839
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815300504
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815300559
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815300746
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1378815300836
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815324874
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815347180
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1378815347208
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815354779
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815365640
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1378815365667
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815374799
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815391298
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815403790
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815406427
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1378815406442
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1378815406442
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815411433
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815419411
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1378815419428
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1378815419428
+activated,perspective,com.vectrace.MercurialEclipse,2.1.0.201304290948,"com.vectrace.MercurialEclipse.Perspective",1378815424053
+activated,view,com.vectrace.MercurialEclipse,2.1.0.201304290948,"com.vectrace.MercurialEclipse.repository.RepositoriesView",1378815424078
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815451583
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815456566
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815473812
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815475902
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815483803
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815484932
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815493792
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815497152
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815500043
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815525506
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815532055
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815535455
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815538531
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815539564
+activated,perspective,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.CPerspective",1378815542551
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378815542564
+activated,perspective,com.vectrace.MercurialEclipse,2.1.0.201304290948,"com.vectrace.MercurialEclipse.Perspective",1378815546194
+activated,view,com.vectrace.MercurialEclipse,2.1.0.201304290948,"com.vectrace.MercurialEclipse.repository.RepositoriesView",1378815546259
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815549124
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815554070
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815558187
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815560678
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815564429
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815581229
+activated,perspective,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.CPerspective",1378815583212
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378815583225
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815588013
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815698012
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.newWizard",1378815698040
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815710301
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815761918
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1378815761987
+activated,perspective,com.vectrace.MercurialEclipse,2.1.0.201304290948,"com.vectrace.MercurialEclipse.Perspective",1378815765147
+activated,view,com.vectrace.MercurialEclipse,2.1.0.201304290948,"com.vectrace.MercurialEclipse.repository.RepositoriesView",1378815765190
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815770031
+error,log,,,"trackuino.firmware does not have a hg root",1378815789346
+error,log,,,"No hg repository found for project 'trackuino.firmware', located at: C:/cygwin/home/chris/workspaces/arduino/trackuino.firmware",1378815789356
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815789434
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815789564
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815793444
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815799214
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815800885
+error,log,,,"No .hg in C:\\cygwin\\home\\chris\\workspaces\\arduino\\trackuino.firmware",1378815801078
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815803059
+error,log,,,"trackuino.firmware does not have a hg root",1378815809022
+error,log,,,"No hg repository found for project 'trackuino.firmware', located at: C:/cygwin/home/chris/workspaces/arduino/trackuino.firmware",1378815809029
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815809084
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815809223
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815811459
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815812548
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815813821
+error,log,,,"No .hg in C:\\cygwin\\home\\chris\\workspaces\\arduino\\trackuino.firmware",1378815814009
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815815382
+error,log,,,"trackuino.firmware does not have a hg root",1378815821687
+error,log,,,"No hg repository found for project 'trackuino.firmware', located at: C:/cygwin/home/chris/workspaces/arduino/trackuino.firmware",1378815821695
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815821751
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815821887
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815828661
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815833943
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815834964
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815838329
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815839511
+error,log,,,"No .hg in C:\\cygwin\\home\\chris\\workspaces\\arduino\\trackuino.firmware",1378815839690
+error,log,,,"No .hg in C:\\cygwin\\home\\chris\\workspaces\\arduino\\trackuino.firmware",1378815843262
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815846376
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815847610
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815856346
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815869715
+error,log,,,"No .hg in C:\\cygwin\\home\\chris\\workspaces\\arduino\\trackuino.firmware",1378815869911
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378815871703
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378816352058
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378816354688
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378825512668
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378825513660
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378825514770
+closed,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378825516251
+stopped,bundle,org.eclipse.cdt.build.crossgcc,1.0.2.201202111925,"org.eclipse.cdt.build.crossgcc",1378825522867
+stopped,bundle,org.eclipse.cdt.codan.checkers.ui,1.0.0.201202111925,"org.eclipse.cdt.codan.checkers.ui",1378825522877
+stopped,bundle,org.eclipse.cdt.codan.checkers,1.0.1.201202111925,"org.eclipse.cdt.codan.checkers",1378825522877
+stopped,bundle,org.eclipse.cdt.codan.ui.cxx,2.0.0.201202111925,"org.eclipse.cdt.codan.ui.cxx",1378825522877
+stopped,bundle,org.eclipse.cdt.codan.core.cxx,1.0.0.201202111925,"org.eclipse.cdt.codan.core.cxx",1378825522877
+stopped,bundle,org.eclipse.cdt.launch.remote,2.3.0.201202111925,"org.eclipse.cdt.launch.remote",1378825522878
+stopped,bundle,org.eclipse.cdt.debug.mi.ui,6.1.1.201202111925,"org.eclipse.cdt.debug.mi.ui",1378825522880
+stopped,bundle,org.eclipse.cdt.debug.mi.core,7.1.1.201202111925,"org.eclipse.cdt.debug.mi.core",1378825522880
+stopped,bundle,org.eclipse.cdt.debug.ui.memory.memorybrowser,1.2.100.201202111925,"org.eclipse.cdt.debug.ui.memory.memorybrowser",1378825522880
+stopped,bundle,org.eclipse.cdt.debug.ui.memory.search,1.2.1.201202111925,"org.eclipse.cdt.debug.ui.memory.search",1378825522880
+stopped,bundle,org.eclipse.cdt.dsf.gdb.ui,2.2.1.201202111925,"org.eclipse.cdt.dsf.gdb.ui",1378825522881
+stopped,bundle,org.eclipse.cdt.dsf.ui,2.2.1.201202111925,"org.eclipse.cdt.dsf.ui",1378825522881
+stopped,bundle,org.eclipse.cdt.gdb.ui,7.0.0.201202111925,"org.eclipse.cdt.gdb.ui",1378825522881
+stopped,bundle,org.eclipse.cdt.dsf.gdb,4.0.2.201202111925,"org.eclipse.cdt.dsf.gdb",1378825522882
+stopped,bundle,org.eclipse.cdt.launch,7.0.0.201202111925,"org.eclipse.cdt.launch",1378825522882

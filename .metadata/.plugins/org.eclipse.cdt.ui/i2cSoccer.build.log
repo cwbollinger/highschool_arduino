@@ -1,0 +1,45 @@
+
+**** Build of configuration Release for project i2cSoccer ****
+
+make all 
+Building file: C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp
+Invoking: AVR C++ Compiler
+avr-g++ -I../i2cSoccer/i2cSoccer -IC:/cygwin/home/chris/workspaces/arduino/i2cSoccer/i2cSoccer/NewPing -I../i2cSoccer/NewPing -I"C:\Users\chris\Documents\Arduino\libraries\NewPing" -D__IN_ECLIPSE__=1 -DARDUINO=104 -DUSB_PID= -DUSB_VID= -Wall -Os -ffunction-sections -fdata-sections -fno-exceptions -g -mmcu=atmega328p -DF_CPU=16000000UL -MMD -MP -MF"NewPing/NewPing.d" -MT"NewPing/NewPing.d"  -c -o "NewPing/NewPing.o" -x c++ "C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp"
+In file included from C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp:8:
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.h:107:22: warning: Arduino.h: No such file or directory
+In file included from C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp:8:
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.h:142: error: 'boolean' does not name a type
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.h:148: error: 'boolean' does not name a type
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.h:149: error: 'boolean' does not name a type
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp: In constructor 'NewPing::NewPing(uint8_t, uint8_t, int)':
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp:16: error: 'digitalPinToBitMask' was not declared in this scope
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp:19: error: 'digitalPinToPort' was not declared in this scope
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp:19: error: 'portOutputRegister' was not declared in this scope
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp:20: error: 'portInputRegister' was not declared in this scope
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp:22: error: 'portModeRegister' was not declared in this scope
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp:24: error: 'min' was not declared in this scope
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp: In member function 'unsigned int NewPing::ping()':
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp:37: error: 'ping_trigger' was not declared in this scope
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp:39: error: 'micros' was not declared in this scope
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp:40: error: 'micros' was not declared in this scope
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp: In member function 'unsigned int NewPing::ping_in()':
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp:46: error: 'max' was not declared in this scope
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp: In member function 'unsigned int NewPing::ping_cm()':
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp:52: error: 'max' was not declared in this scope
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp: In member function 'unsigned int NewPing::ping_median(uint8_t)':
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp:73: error: 'delay' was not declared in this scope
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp: At global scope:
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp:83: error: 'boolean' does not name a type
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp: In member function 'void NewPing::ping_timer(void (*)())':
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp:111: error: 'ping_trigger' was not declared in this scope
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp: At global scope:
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp:116: error: 'boolean' does not name a type
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp: In static member function 'static void NewPing::timer_us(unsigned int, void (*)())':
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp:151: error: 'min' was not declared in this scope
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp: In member function 'unsigned int NewPing::convert_in(unsigned int)':
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp:225: error: 'max' was not declared in this scope
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp: In member function 'unsigned int NewPing::convert_cm(unsigned int)':
+C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp:230: error: 'max' was not declared in this scope
+make: *** [NewPing/NewPing.o] Error 1
+
+**** Build Finished ****

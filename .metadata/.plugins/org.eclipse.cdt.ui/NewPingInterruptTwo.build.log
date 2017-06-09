@@ -1,0 +1,22 @@
+
+**** Build of configuration Release for project NewPingInterruptTwo ****
+
+make all 
+Building file: C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp
+Invoking: AVR C++ Compiler
+avr-g++ -I"C:\arduino-1.0.4\hardware\arduino\cores\arduino" -I"C:\arduino-1.0.4\hardware\arduino\variants\standard" -D__IN_ECLIPSE__=1 -DUSB_VID= -DUSB_PID= -DARDUINO=104 -Wall -Os -ffunction-sections -fdata-sections -fno-exceptions -g -mmcu=atmega328p -DF_CPU=16000000UL -MMD -MP -MF"NewPing/NewPing.d" -MT"NewPing/NewPing.d"  -c -o "NewPing/NewPing.o" -x c++ "C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp"
+Finished building: C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp
+ 
+Building file: ../test.cpp
+Invoking: AVR C++ Compiler
+avr-g++ -I"C:\arduino-1.0.4\hardware\arduino\cores\arduino" -I"C:\arduino-1.0.4\hardware\arduino\variants\standard" -D__IN_ECLIPSE__=1 -DUSB_VID= -DUSB_PID= -DARDUINO=104 -Wall -Os -ffunction-sections -fdata-sections -fno-exceptions -g -mmcu=atmega328p -DF_CPU=16000000UL -MMD -MP -MF"test.d" -MT"test.d"  -c -o "test.o" -x c++ "../test.cpp"
+../test.cpp:15:21: warning: NewPing.h: No such file or directory
+../test.cpp:25: error: 'NewPing' does not name a type
+../test.cpp: In function 'void loop()':
+../test.cpp:44: error: 'sonar' was not declared in this scope
+../test.cpp: In function 'void echoCheck()':
+../test.cpp:54: error: 'sonar' was not declared in this scope
+../test.cpp:55: error: 'US_ROUNDTRIP_CM' was not declared in this scope
+make: *** [test.o] Error 1
+
+**** Build Finished ****

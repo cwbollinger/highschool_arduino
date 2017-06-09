@@ -1,0 +1,21 @@
+
+**** Build of configuration Release for project test ****
+
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega328p test.elf
+AVR Memory Usage
+----------------
+Device: atmega328p
+
+Program:    3624 bytes (11.1% Full)
+(.text + .data + .bootloader)
+
+Data:        252 bytes (12.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+**** Build Finished ****

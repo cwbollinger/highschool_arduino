@@ -1,0 +1,16 @@
+
+**** Build of configuration Release for project ardu2013_roboduino ****
+
+make all 
+Building file: ../Diagnostics.cpp
+Invoking: AVR C++ Compiler
+avr-g++ -I../ardu2013_roboduino/NewPing -D__IN_ECLIPSE__=1 -DARDUINO=104 -DUSB_PID= -DUSB_VID= -Wall -Os -ffunction-sections -fdata-sections -fno-exceptions -g -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"Diagnostics.d" -MT"Diagnostics.d"  -c -o "Diagnostics.o" -x c++ "../Diagnostics.cpp"
+In file included from ../Diagnostics.cpp:4:
+../ardu2013.h:9:21: error: Arduino.h: No such file or directory
+../Diagnostics.cpp: In function 'void Diagnostics_Handler()':
+../Diagnostics.cpp:29: error: 'millis' was not declared in this scope
+../Diagnostics.cpp:37: error: 'Serial' was not declared in this scope
+../Diagnostics.cpp:48: error: 'Serial' was not declared in this scope
+make: *** [Diagnostics.o] Error 1
+
+**** Build Finished ****

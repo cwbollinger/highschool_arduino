@@ -1,0 +1,21 @@
+
+**** Build of configuration Release for project ardu2013_robo ****
+
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega328p ardu2013_robo.elf
+AVR Memory Usage
+----------------
+Device: atmega328p
+
+Program:    6930 bytes (21.1% Full)
+(.text + .data + .bootloader)
+
+Data:        664 bytes (32.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+**** Build Finished ****

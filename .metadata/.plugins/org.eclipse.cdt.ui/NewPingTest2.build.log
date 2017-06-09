@@ -1,0 +1,48 @@
+
+**** Build of configuration Release for project NewPingTest2 ****
+
+make all 
+Building file: C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp
+Invoking: AVR C++ Compiler
+avr-g++ -I"C:\arduino-1.0.4\hardware\arduino\cores\arduino" -I"C:\arduino-1.0.4\hardware\arduino\variants\standard" -I"C:\cygwin\home\chris\workspaces\arduino\NewPingTest2" -I"C:\Users\chris\Documents\Arduino\libraries\NewPing" -D__IN_ECLIPSE__=1 -DUSB_VID= -DUSB_PID= -DARDUINO=104 -Wall -Os -ffunction-sections -fdata-sections -fno-exceptions -g -mmcu=atmega328p -DF_CPU=16000000UL -MMD -MP -MF"NewPing/NewPing.d" -MT"NewPing/NewPing.d"  -c -o "NewPing/NewPing.o" -x c++ "C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp"
+Finished building: C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp
+ 
+Building file: ../NewPingTest2.cpp
+Invoking: AVR C++ Compiler
+avr-g++ -I"C:\arduino-1.0.4\hardware\arduino\cores\arduino" -I"C:\arduino-1.0.4\hardware\arduino\variants\standard" -I"C:\cygwin\home\chris\workspaces\arduino\NewPingTest2" -I"C:\Users\chris\Documents\Arduino\libraries\NewPing" -D__IN_ECLIPSE__=1 -DUSB_VID= -DUSB_PID= -DARDUINO=104 -Wall -Os -ffunction-sections -fdata-sections -fno-exceptions -g -mmcu=atmega328p -DF_CPU=16000000UL -MMD -MP -MF"NewPingTest2.d" -MT"NewPingTest2.d"  -c -o "NewPingTest2.o" -x c++ "../NewPingTest2.cpp"
+Finished building: ../NewPingTest2.cpp
+ 
+Building target: NewPingTest2.elf
+Invoking: AVR C++ Linker
+avr-gcc -Os -Wl,--gc-sections  -L"C:\cygwin\home\chris\workspaces\arduino\Arduino_Uno/Release" -mmcu=atmega328p  -o"NewPingTest2.elf"  ./NewPing/NewPing.o  ./NewPingTest2.o   -l"Arduino_Uno" -lm
+Finished building target: NewPingTest2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S NewPingTest2.elf  >"NewPingTest2.lss"
+Finished building: NewPingTest2.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -O ihex NewPingTest2.elf  "NewPingTest2.hex"
+Finished building: NewPingTest2.hex
+ 
+Create eeprom image (ihex format)
+avr-objcopy -j .eeprom --no-change-warnings --change-section-lma .eeprom=0 -O ihex NewPingTest2.elf  "NewPingTest2.eep"
+Finished building: NewPingTest2.eep
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega328p NewPingTest2.elf
+AVR Memory Usage
+----------------
+Device: atmega328p
+
+Program:    3704 bytes (11.3% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (14.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+**** Build Finished ****

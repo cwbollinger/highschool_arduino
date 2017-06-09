@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+		<item value="8" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="NewWizardAction">
+		<item value="it.baeyens.arduino.eclipse.NewArduinoSketchWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="it.baeyens.arduino.eclipse.newWizards"/>
+		</list>
+	</section>
+	<section name="InstallationDialogSettings">
+		<item value="706" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="743" key="DIALOG_HEIGHT"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+		<item value="15" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="ShowViewDialog">
+		<item value="311" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="it.baeyens.arduino.monitor.views.SerialMonitor" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
+		<item value="438" key="DIALOG_HEIGHT"/>
+		<item value="84" key="DIALOG_Y_ORIGIN"/>
+		<item value="505" key="DIALOG_X_ORIGIN"/>
+		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="it.baeyens.arduino.monitor"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item value="it.baeyens.arduino.Import_Arduino_Libraries" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="it.baeyens.arduino.eclipse.importWizards"/>
+		</list>
+	</section>
+</section>

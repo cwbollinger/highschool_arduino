@@ -1,0 +1,38 @@
+
+**** Build of configuration Release for project ardu2013 ****
+
+make all 
+Building target: ardu2013.elf
+Invoking: AVR C++ Linker
+avr-gcc -Os -Wl,--gc-sections  -L"C:\cygwin\home\chris\workspaces\arduino\Arduino_Uno/Release" -mmcu=atmega328p  -o"ardu2013.elf"  ./NewPing/NewPing.o  ./Diagnostics.o ./NXTAnalog.o ./NXTDigital.o ./NXTI2C.o ./NXTPing.o ./ardu2013.o ./twi4nxt.o   -l"Arduino_Uno" -lm
+Finished building target: ardu2013.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S ardu2013.elf  >"ardu2013.lss"
+Finished building: ardu2013.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -O ihex ardu2013.elf  "ardu2013.hex"
+Finished building: ardu2013.hex
+ 
+Create eeprom image (ihex format)
+avr-objcopy -j .eeprom --no-change-warnings --change-section-lma .eeprom=0 -O ihex ardu2013.elf  "ardu2013.eep"
+Finished building: ardu2013.eep
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega328p ardu2013.elf
+AVR Memory Usage
+----------------
+Device: atmega328p
+
+Program:    7262 bytes (22.2% Full)
+(.text + .data + .bootloader)
+
+Data:        824 bytes (40.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+**** Build Finished ****

@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+pathvariable.ArduinoLibPath=C\:/arduino-1.0.4/libraries
+pathvariable.CoreArduinoPath=C\:/arduino-1.0.4/hardware/arduino/cores
+pathvariable.PinArduinoPath=C\:/arduino-1.0.4/hardware/arduino/variants
+pathvariable.PivateLibPath=C\:/Users/chris/Documents/Arduino/libraries
+version=1

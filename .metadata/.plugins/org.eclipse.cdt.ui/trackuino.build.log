@@ -1,0 +1,8 @@
+
+**** Clean-only build of configuration Release for project trackuino ****
+
+make clean 
+rm -rf  ./trackuino/aprs.o ./trackuino/ax25.o ./trackuino/buzzer_avr.o ./trackuino/buzzer_pic32.o ./trackuino/gps.o ./trackuino/modem.o ./trackuino/modem_hal_avr.o ./trackuino/modem_hal_pic32.o ./trackuino/pin_pic32.o ./trackuino/power_avr.o ./trackuino/power_pic32.o ./trackuino/radio.o ./trackuino/radio_hx1.o ./trackuino/radio_mx146.o ./trackuino/sensors_avr.o ./trackuino/sensors_pic32.o ./trackuino/trackuino.o  trackuino.eep  trackuino.hex  trackuino.lss  ./trackuino/aprs.d ./trackuino/ax25.d ./trackuino/buzzer_avr.d ./trackuino/buzzer_pic32.d ./trackuino/gps.d ./trackuino/modem.d ./trackuino/modem_hal_avr.d ./trackuino/modem_hal_pic32.d ./trackuino/pin_pic32.d ./trackuino/power_avr.d ./trackuino/power_pic32.d ./trackuino/radio.d ./trackuino/radio_hx1.d ./trackuino/radio_mx146.d ./trackuino/sensors_avr.d ./trackuino/sensors_pic32.d  ./trackuino/trackuino.d  sizedummy  trackuino.elf
+ 
+
+**** Build Finished ****

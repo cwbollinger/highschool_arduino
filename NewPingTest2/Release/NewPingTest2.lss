@@ -1,0 +1,2547 @@
+
+NewPingTest2.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000016  00800100  00000e62  00000ef6  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         00000e62  00000000  00000000  00000094  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .bss          00000116  00800116  00800116  00000f0c  2**0
+                  ALLOC
+  3 .debug_aranges 000005e8  00000000  00000000  00000f0c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  4 .debug_pubnames 00000e55  00000000  00000000  000014f4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   0000728c  00000000  00000000  00002349  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 00001585  00000000  00000000  000095d5  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   0000359d  00000000  00000000  0000ab5a  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000a90  00000000  00000000  0000e0f8  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    00001a93  00000000  00000000  0000eb88  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    00003f97  00000000  00000000  0001061b  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 000005b0  00000000  00000000  000145b2  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+	_maxEchoTime = min(max_cm_distance, MAX_SENSOR_DISTANCE) * US_ROUNDTRIP_CM + (US_ROUNDTRIP_CM / 2); // Calculate the maximum distance in uS.
+
+#if DISABLE_ONE_PIN == true
+	*_triggerMode |= _triggerBit; // Set trigger pin to output.
+#endif
+}
+   0:	0c 94 63 00 	jmp	0xc6	; 0xc6 <__ctors_end>
+
+HardwareSerial::HardwareSerial(ring_buffer *rx_buffer, ring_buffer *tx_buffer,
+  volatile uint8_t *ubrrh, volatile uint8_t *ubrrl,
+  volatile uint8_t *ucsra, volatile uint8_t *ucsrb,
+  volatile uint8_t *ucsrc, volatile uint8_t *udr,
+  uint8_t rxen, uint8_t txen, uint8_t rxcie, uint8_t udrie, uint8_t u2x)
+   4:	0c 94 8b 00 	jmp	0x116	; 0x116 <__bad_interrupt>
+    n += write(*buffer++);
+  }
+  return n;
+}
+
+size_t Print::print(const __FlashStringHelper *ifsh)
+   8:	0c 94 8b 00 	jmp	0x116	; 0x116 <__bad_interrupt>
+	
+	return ((m << 8) + t) * (64 / clockCyclesPerMicrosecond());
+}
+
+void delay(unsigned long ms)
+{
+   c:	0c 94 8b 00 	jmp	0x116	; 0x116 <__bad_interrupt>
+  10:	0c 94 8b 00 	jmp	0x116	; 0x116 <__bad_interrupt>
+  14:	0c 94 8b 00 	jmp	0x116	; 0x116 <__bad_interrupt>
+  18:	0c 94 8b 00 	jmp	0x116	; 0x116 <__bad_interrupt>
+  1c:	0c 94 dd 00 	jmp	0x1ba	; 0x1ba <__vector_7>
+  20:	0c 94 8b 00 	jmp	0x116	; 0x116 <__bad_interrupt>
+  24:	0c 94 8b 00 	jmp	0x116	; 0x116 <__bad_interrupt>
+  28:	0c 94 8b 00 	jmp	0x116	; 0x116 <__bad_interrupt>
+  2c:	0c 94 8b 00 	jmp	0x116	; 0x116 <__bad_interrupt>
+  30:	0c 94 8b 00 	jmp	0x116	; 0x116 <__bad_interrupt>
+  34:	0c 94 8b 00 	jmp	0x116	; 0x116 <__bad_interrupt>
+  38:	0c 94 8b 00 	jmp	0x116	; 0x116 <__bad_interrupt>
+  3c:	0c 94 8b 00 	jmp	0x116	; 0x116 <__bad_interrupt>
+  40:	0c 94 27 06 	jmp	0xc4e	; 0xc4e <__vector_16>
+  44:	0c 94 8b 00 	jmp	0x116	; 0x116 <__bad_interrupt>
+  48:	0c 94 09 03 	jmp	0x612	; 0x612 <__vector_18>
+  4c:	0c 94 57 03 	jmp	0x6ae	; 0x6ae <__vector_19>
+  50:	0c 94 8b 00 	jmp	0x116	; 0x116 <__bad_interrupt>
+  54:	0c 94 8b 00 	jmp	0x116	; 0x116 <__bad_interrupt>
+  58:	0c 94 8b 00 	jmp	0x116	; 0x116 <__bad_interrupt>
+  5c:	0c 94 8b 00 	jmp	0x116	; 0x116 <__bad_interrupt>
+  60:	0c 94 8b 00 	jmp	0x116	; 0x116 <__bad_interrupt>
+  64:	0c 94 8b 00 	jmp	0x116	; 0x116 <__bad_interrupt>
+
+00000068 <port_to_mode_PGM>:
+  68:	00 00 00 00 24 00 27 00 2a 00                       ....$.'.*.
+
+00000072 <port_to_output_PGM>:
+  72:	00 00 00 00 25 00 28 00 2b 00                       ....%.(.+.
+
+0000007c <port_to_input_PGM>:
+  7c:	00 00 00 00 23 00 26 00 29 00                       ....#.&.).
+
+00000086 <digital_pin_to_port_PGM>:
+  86:	04 04 04 04 04 04 04 04 02 02 02 02 02 02 03 03     ................
+  96:	03 03 03 03                                         ....
+
+0000009a <digital_pin_to_bit_mask_PGM>:
+  9a:	01 02 04 08 10 20 40 80 01 02 04 08 10 20 01 02     ..... @...... ..
+  aa:	04 08 10 20                                         ... 
+
+000000ae <digital_pin_to_timer_PGM>:
+  ae:	00 00 00 07 00 02 01 00 00 03 04 06 00 00 00 00     ................
+  be:	00 00 00 00                                         ....
+
+000000c2 <__ctors_start>:
+  c2:	ee 01       	movw	r28, r28
+  c4:	c3 04       	cpc	r12, r3
+
+000000c6 <__ctors_end>:
+  c6:	11 24       	eor	r1, r1
+  c8:	1f be       	out	0x3f, r1	; 63
+  ca:	cf ef       	ldi	r28, 0xFF	; 255
+  cc:	d8 e0       	ldi	r29, 0x08	; 8
+  ce:	de bf       	out	0x3e, r29	; 62
+  d0:	cd bf       	out	0x3d, r28	; 61
+
+000000d2 <__do_copy_data>:
+  d2:	11 e0       	ldi	r17, 0x01	; 1
+  d4:	a0 e0       	ldi	r26, 0x00	; 0
+  d6:	b1 e0       	ldi	r27, 0x01	; 1
+  d8:	e2 e6       	ldi	r30, 0x62	; 98
+  da:	fe e0       	ldi	r31, 0x0E	; 14
+  dc:	02 c0       	rjmp	.+4      	; 0xe2 <.do_copy_data_start>
+
+000000de <.do_copy_data_loop>:
+  de:	05 90       	lpm	r0, Z+
+  e0:	0d 92       	st	X+, r0
+
+000000e2 <.do_copy_data_start>:
+  e2:	a6 31       	cpi	r26, 0x16	; 22
+  e4:	b1 07       	cpc	r27, r17
+  e6:	d9 f7       	brne	.-10     	; 0xde <.do_copy_data_loop>
+
+000000e8 <__do_clear_bss>:
+  e8:	12 e0       	ldi	r17, 0x02	; 2
+  ea:	a6 e1       	ldi	r26, 0x16	; 22
+  ec:	b1 e0       	ldi	r27, 0x01	; 1
+  ee:	01 c0       	rjmp	.+2      	; 0xf2 <.do_clear_bss_start>
+
+000000f0 <.do_clear_bss_loop>:
+  f0:	1d 92       	st	X+, r1
+
+000000f2 <.do_clear_bss_start>:
+  f2:	ac 32       	cpi	r26, 0x2C	; 44
+  f4:	b1 07       	cpc	r27, r17
+  f6:	e1 f7       	brne	.-8      	; 0xf0 <.do_clear_bss_loop>
+
+000000f8 <__do_global_ctors>:
+  f8:	10 e0       	ldi	r17, 0x00	; 0
+  fa:	c6 ec       	ldi	r28, 0xC6	; 198
+  fc:	d0 e0       	ldi	r29, 0x00	; 0
+  fe:	04 c0       	rjmp	.+8      	; 0x108 <.do_global_ctors_start>
+
+00000100 <.do_global_ctors_loop>:
+ 100:	22 97       	sbiw	r28, 0x02	; 2
+ 102:	fe 01       	movw	r30, r28
+ 104:	0e 94 2b 07 	call	0xe56	; 0xe56 <__tablejump__>
+
+00000108 <.do_global_ctors_start>:
+ 108:	c2 3c       	cpi	r28, 0xC2	; 194
+ 10a:	d1 07       	cpc	r29, r17
+ 10c:	c9 f7       	brne	.-14     	; 0x100 <.do_global_ctors_loop>
+ 10e:	0e 94 18 06 	call	0xc30	; 0xc30 <main>
+ 112:	0c 94 2f 07 	jmp	0xe5e	; 0xe5e <_exit>
+
+00000116 <__bad_interrupt>:
+ 116:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+0000011a <_ZN7NewPingC1Ehhi>:
+
+// ---------------------------------------------------------------------------
+// NewPing constructor
+// ---------------------------------------------------------------------------
+
+NewPing::NewPing(uint8_t trigger_pin, uint8_t echo_pin, int max_cm_distance) {
+ 11a:	cf 93       	push	r28
+ 11c:	df 93       	push	r29
+ 11e:	ec 01       	movw	r28, r24
+	_triggerBit = digitalPinToBitMask(trigger_pin); // Get the port register bitmask for the trigger pin.
+ 120:	86 2f       	mov	r24, r22
+ 122:	90 e0       	ldi	r25, 0x00	; 0
+ 124:	fc 01       	movw	r30, r24
+ 126:	e6 56       	subi	r30, 0x66	; 102
+ 128:	ff 4f       	sbci	r31, 0xFF	; 255
+ 12a:	e4 91       	lpm	r30, Z+
+ 12c:	ec 83       	std	Y+4, r30	; 0x04
+	_echoBit = digitalPinToBitMask(echo_pin);       // Get the port register bitmask for the echo pin.
+ 12e:	a4 2f       	mov	r26, r20
+ 130:	b0 e0       	ldi	r27, 0x00	; 0
+ 132:	fd 01       	movw	r30, r26
+ 134:	e6 56       	subi	r30, 0x66	; 102
+ 136:	ff 4f       	sbci	r31, 0xFF	; 255
+ 138:	e4 91       	lpm	r30, Z+
+ 13a:	ed 83       	std	Y+5, r30	; 0x05
+
+	_triggerOutput = portOutputRegister(digitalPinToPort(trigger_pin)); // Get the output port register for the trigger pin.
+ 13c:	8a 57       	subi	r24, 0x7A	; 122
+ 13e:	9f 4f       	sbci	r25, 0xFF	; 255
+ 140:	fc 01       	movw	r30, r24
+ 142:	44 91       	lpm	r20, Z+
+ 144:	50 e0       	ldi	r21, 0x00	; 0
+ 146:	44 0f       	add	r20, r20
+ 148:	55 1f       	adc	r21, r21
+ 14a:	fa 01       	movw	r30, r20
+ 14c:	ee 58       	subi	r30, 0x8E	; 142
+ 14e:	ff 4f       	sbci	r31, 0xFF	; 255
+ 150:	85 91       	lpm	r24, Z+
+ 152:	94 91       	lpm	r25, Z+
+ 154:	9f 83       	std	Y+7, r25	; 0x07
+ 156:	8e 83       	std	Y+6, r24	; 0x06
+	_echoInput = portInputRegister(digitalPinToPort(echo_pin));         // Get the input port register for the echo pin.
+ 158:	aa 57       	subi	r26, 0x7A	; 122
+ 15a:	bf 4f       	sbci	r27, 0xFF	; 255
+ 15c:	fd 01       	movw	r30, r26
+ 15e:	84 91       	lpm	r24, Z+
+ 160:	e8 2f       	mov	r30, r24
+ 162:	f0 e0       	ldi	r31, 0x00	; 0
+ 164:	ee 0f       	add	r30, r30
+ 166:	ff 1f       	adc	r31, r31
+ 168:	e4 58       	subi	r30, 0x84	; 132
+ 16a:	ff 4f       	sbci	r31, 0xFF	; 255
+ 16c:	85 91       	lpm	r24, Z+
+ 16e:	94 91       	lpm	r25, Z+
+ 170:	9b 87       	std	Y+11, r25	; 0x0b
+ 172:	8a 87       	std	Y+10, r24	; 0x0a
+
+	_triggerMode = (uint8_t *) portModeRegister(digitalPinToPort(trigger_pin)); // Get the port mode register for the trigger pin.
+ 174:	fa 01       	movw	r30, r20
+ 176:	e8 59       	subi	r30, 0x98	; 152
+ 178:	ff 4f       	sbci	r31, 0xFF	; 255
+ 17a:	85 91       	lpm	r24, Z+
+ 17c:	94 91       	lpm	r25, Z+
+ 17e:	99 87       	std	Y+9, r25	; 0x09
+ 180:	88 87       	std	Y+8, r24	; 0x08
+
+	_maxEchoTime = min(max_cm_distance, MAX_SENSOR_DISTANCE) * US_ROUNDTRIP_CM + (US_ROUNDTRIP_CM / 2); // Calculate the maximum distance in uS.
+ 182:	f1 e0       	ldi	r31, 0x01	; 1
+ 184:	25 3f       	cpi	r18, 0xF5	; 245
+ 186:	3f 07       	cpc	r19, r31
+ 188:	14 f0       	brlt	.+4      	; 0x18e <_ZN7NewPingC1Ehhi+0x74>
+ 18a:	24 ef       	ldi	r18, 0xF4	; 244
+ 18c:	31 e0       	ldi	r19, 0x01	; 1
+ 18e:	89 e3       	ldi	r24, 0x39	; 57
+ 190:	90 e0       	ldi	r25, 0x00	; 0
+ 192:	ac 01       	movw	r20, r24
+ 194:	24 9f       	mul	r18, r20
+ 196:	c0 01       	movw	r24, r0
+ 198:	25 9f       	mul	r18, r21
+ 19a:	90 0d       	add	r25, r0
+ 19c:	34 9f       	mul	r19, r20
+ 19e:	90 0d       	add	r25, r0
+ 1a0:	11 24       	eor	r1, r1
+ 1a2:	4c 96       	adiw	r24, 0x1c	; 28
+ 1a4:	9d 87       	std	Y+13, r25	; 0x0d
+ 1a6:	8c 87       	std	Y+12, r24	; 0x0c
+
+#if DISABLE_ONE_PIN == true
+	*_triggerMode |= _triggerBit; // Set trigger pin to output.
+#endif
+}
+ 1a8:	df 91       	pop	r29
+ 1aa:	cf 91       	pop	r28
+ 1ac:	08 95       	ret
+
+000001ae <_ZN7NewPing10timer_stopEv>:
+
+void NewPing::timer_stop() { // Disable timer interrupt.
+#if defined (__AVR_ATmega32U4__) // Use Timer4 for ATmega32U4 (Teensy/Leonardo).
+	TIMSK4 = 0;
+#else
+	TIMSK2 &= ~(1<<OCIE2A);
+ 1ae:	e0 e7       	ldi	r30, 0x70	; 112
+ 1b0:	f0 e0       	ldi	r31, 0x00	; 0
+ 1b2:	80 81       	ld	r24, Z
+ 1b4:	8d 7f       	andi	r24, 0xFD	; 253
+ 1b6:	80 83       	st	Z, r24
+#endif
+}
+ 1b8:	08 95       	ret
+
+000001ba <__vector_7>:
+
+
+#if defined (__AVR_ATmega32U4__) // Use Timer4 for ATmega32U4 (Teensy/Leonardo).
+ISR(TIMER4_OVF_vect) {
+#else
+ISR(TIMER2_COMPA_vect) {
+ 1ba:	1f 92       	push	r1
+ 1bc:	0f 92       	push	r0
+ 1be:	0f b6       	in	r0, 0x3f	; 63
+ 1c0:	0f 92       	push	r0
+ 1c2:	11 24       	eor	r1, r1
+ 1c4:	2f 93       	push	r18
+ 1c6:	3f 93       	push	r19
+ 1c8:	4f 93       	push	r20
+ 1ca:	5f 93       	push	r21
+ 1cc:	6f 93       	push	r22
+ 1ce:	7f 93       	push	r23
+ 1d0:	8f 93       	push	r24
+ 1d2:	9f 93       	push	r25
+ 1d4:	af 93       	push	r26
+ 1d6:	bf 93       	push	r27
+ 1d8:	ef 93       	push	r30
+ 1da:	ff 93       	push	r31
+#endif
+	if(intFunc) intFunc(); // If wrapped function is set, call it.
+ 1dc:	e0 91 16 01 	lds	r30, 0x0116
+ 1e0:	f0 91 17 01 	lds	r31, 0x0117
+ 1e4:	30 97       	sbiw	r30, 0x00	; 0
+ 1e6:	09 f0       	breq	.+2      	; 0x1ea <__vector_7+0x30>
+ 1e8:	09 95       	icall
+}
+ 1ea:	ff 91       	pop	r31
+ 1ec:	ef 91       	pop	r30
+ 1ee:	bf 91       	pop	r27
+ 1f0:	af 91       	pop	r26
+ 1f2:	9f 91       	pop	r25
+ 1f4:	8f 91       	pop	r24
+ 1f6:	7f 91       	pop	r23
+ 1f8:	6f 91       	pop	r22
+ 1fa:	5f 91       	pop	r21
+ 1fc:	4f 91       	pop	r20
+ 1fe:	3f 91       	pop	r19
+ 200:	2f 91       	pop	r18
+ 202:	0f 90       	pop	r0
+ 204:	0f be       	out	0x3f, r0	; 63
+ 206:	0f 90       	pop	r0
+ 208:	1f 90       	pop	r1
+ 20a:	18 95       	reti
+
+0000020c <_ZN7NewPing11check_timerEv>:
+	if (!ping_trigger()) return;         // Trigger a ping, if it returns false, return without starting the echo timer.
+	timer_us(ECHO_TIMER_FREQ, userFunc); // Set ping echo timer check every ECHO_TIMER_FREQ uS.
+}
+
+ 
+boolean NewPing::check_timer() {
+ 20c:	ef 92       	push	r14
+ 20e:	ff 92       	push	r15
+ 210:	0f 93       	push	r16
+ 212:	1f 93       	push	r17
+ 214:	cf 93       	push	r28
+ 216:	df 93       	push	r29
+ 218:	ec 01       	movw	r28, r24
+	if (micros() > _max_time) { // Outside the timeout limit.
+ 21a:	0e 94 7d 06 	call	0xcfa	; 0xcfa <micros>
+ 21e:	2e 85       	ldd	r18, Y+14	; 0x0e
+ 220:	3f 85       	ldd	r19, Y+15	; 0x0f
+ 222:	48 89       	ldd	r20, Y+16	; 0x10
+ 224:	59 89       	ldd	r21, Y+17	; 0x11
+ 226:	26 17       	cp	r18, r22
+ 228:	37 07       	cpc	r19, r23
+ 22a:	48 07       	cpc	r20, r24
+ 22c:	59 07       	cpc	r21, r25
+ 22e:	30 f4       	brcc	.+12     	; 0x23c <_ZN7NewPing11check_timerEv+0x30>
+
+void NewPing::timer_stop() { // Disable timer interrupt.
+#if defined (__AVR_ATmega32U4__) // Use Timer4 for ATmega32U4 (Teensy/Leonardo).
+	TIMSK4 = 0;
+#else
+	TIMSK2 &= ~(1<<OCIE2A);
+ 230:	80 91 70 00 	lds	r24, 0x0070
+ 234:	8d 7f       	andi	r24, 0xFD	; 253
+ 236:	80 93 70 00 	sts	0x0070, r24
+ 23a:	0a c0       	rjmp	.+20     	; 0x250 <_ZN7NewPing11check_timerEv+0x44>
+	if (micros() > _max_time) { // Outside the timeout limit.
+		timer_stop();           // Disable timer interrupt
+		return false;           // Cancel ping timer.
+	}
+
+	if (!(*_echoInput & _echoBit)) { // Ping echo received.
+ 23c:	ea 85       	ldd	r30, Y+10	; 0x0a
+ 23e:	fb 85       	ldd	r31, Y+11	; 0x0b
+ 240:	20 81       	ld	r18, Z
+ 242:	30 e0       	ldi	r19, 0x00	; 0
+ 244:	8d 81       	ldd	r24, Y+5	; 0x05
+ 246:	90 e0       	ldi	r25, 0x00	; 0
+ 248:	28 23       	and	r18, r24
+ 24a:	39 23       	and	r19, r25
+ 24c:	23 2b       	or	r18, r19
+ 24e:	11 f0       	breq	.+4      	; 0x254 <_ZN7NewPing11check_timerEv+0x48>
+ 250:	80 e0       	ldi	r24, 0x00	; 0
+ 252:	20 c0       	rjmp	.+64     	; 0x294 <_ZN7NewPing11check_timerEv+0x88>
+
+void NewPing::timer_stop() { // Disable timer interrupt.
+#if defined (__AVR_ATmega32U4__) // Use Timer4 for ATmega32U4 (Teensy/Leonardo).
+	TIMSK4 = 0;
+#else
+	TIMSK2 &= ~(1<<OCIE2A);
+ 254:	80 91 70 00 	lds	r24, 0x0070
+ 258:	8d 7f       	andi	r24, 0xFD	; 253
+ 25a:	80 93 70 00 	sts	0x0070, r24
+		return false;           // Cancel ping timer.
+	}
+
+	if (!(*_echoInput & _echoBit)) { // Ping echo received.
+		timer_stop();                // Disable timer interrupt
+		ping_result = (micros() - (_max_time - _maxEchoTime) - 13); // Calculate ping time, 13uS of overhead.
+ 25e:	0e 94 7d 06 	call	0xcfa	; 0xcfa <micros>
+ 262:	2c 85       	ldd	r18, Y+12	; 0x0c
+ 264:	3d 85       	ldd	r19, Y+13	; 0x0d
+ 266:	40 e0       	ldi	r20, 0x00	; 0
+ 268:	50 e0       	ldi	r21, 0x00	; 0
+ 26a:	ee 84       	ldd	r14, Y+14	; 0x0e
+ 26c:	ff 84       	ldd	r15, Y+15	; 0x0f
+ 26e:	08 89       	ldd	r16, Y+16	; 0x10
+ 270:	19 89       	ldd	r17, Y+17	; 0x11
+ 272:	2e 19       	sub	r18, r14
+ 274:	3f 09       	sbc	r19, r15
+ 276:	40 0b       	sbc	r20, r16
+ 278:	51 0b       	sbc	r21, r17
+ 27a:	2d 50       	subi	r18, 0x0D	; 13
+ 27c:	30 40       	sbci	r19, 0x00	; 0
+ 27e:	40 40       	sbci	r20, 0x00	; 0
+ 280:	50 40       	sbci	r21, 0x00	; 0
+ 282:	26 0f       	add	r18, r22
+ 284:	37 1f       	adc	r19, r23
+ 286:	48 1f       	adc	r20, r24
+ 288:	59 1f       	adc	r21, r25
+ 28a:	28 83       	st	Y, r18
+ 28c:	39 83       	std	Y+1, r19	; 0x01
+ 28e:	4a 83       	std	Y+2, r20	; 0x02
+ 290:	5b 83       	std	Y+3, r21	; 0x03
+ 292:	81 e0       	ldi	r24, 0x01	; 1
+		return true;                 // Return ping echo true.
+	}
+
+	return false; // Return false because there's no ping echo yet.
+}
+ 294:	df 91       	pop	r29
+ 296:	cf 91       	pop	r28
+ 298:	1f 91       	pop	r17
+ 29a:	0f 91       	pop	r16
+ 29c:	ff 90       	pop	r15
+ 29e:	ef 90       	pop	r14
+ 2a0:	08 95       	ret
+
+000002a2 <_ZN7NewPing12ping_triggerEv>:
+
+// ---------------------------------------------------------------------------
+// Standard ping method support functions (not called directly)
+// ---------------------------------------------------------------------------
+
+boolean NewPing::ping_trigger() {
+ 2a2:	cf 93       	push	r28
+ 2a4:	df 93       	push	r29
+ 2a6:	ec 01       	movw	r28, r24
+#if DISABLE_ONE_PIN != true
+	*_triggerMode |= _triggerBit;    // Set trigger pin to output.
+ 2a8:	e8 85       	ldd	r30, Y+8	; 0x08
+ 2aa:	f9 85       	ldd	r31, Y+9	; 0x09
+ 2ac:	80 81       	ld	r24, Z
+ 2ae:	9c 81       	ldd	r25, Y+4	; 0x04
+ 2b0:	89 2b       	or	r24, r25
+ 2b2:	80 83       	st	Z, r24
+#endif
+	*_triggerOutput &= ~_triggerBit; // Set the trigger pin low, should already be low, but this will make sure it is.
+ 2b4:	ee 81       	ldd	r30, Y+6	; 0x06
+ 2b6:	ff 81       	ldd	r31, Y+7	; 0x07
+ 2b8:	90 81       	ld	r25, Z
+ 2ba:	8c 81       	ldd	r24, Y+4	; 0x04
+ 2bc:	80 95       	com	r24
+ 2be:	89 23       	and	r24, r25
+ 2c0:	80 83       	st	Z, r24
+	delayMicroseconds(4);            // Wait for pin to go low, testing shows it needs 4uS to work every time.
+ 2c2:	84 e0       	ldi	r24, 0x04	; 4
+ 2c4:	90 e0       	ldi	r25, 0x00	; 0
+ 2c6:	0e 94 a3 06 	call	0xd46	; 0xd46 <delayMicroseconds>
+	*_triggerOutput |= _triggerBit;  // Set trigger pin high, this tells the sensor to send out a ping.
+ 2ca:	ee 81       	ldd	r30, Y+6	; 0x06
+ 2cc:	ff 81       	ldd	r31, Y+7	; 0x07
+ 2ce:	80 81       	ld	r24, Z
+ 2d0:	9c 81       	ldd	r25, Y+4	; 0x04
+ 2d2:	89 2b       	or	r24, r25
+ 2d4:	80 83       	st	Z, r24
+	delayMicroseconds(10);           // Wait long enough for the sensor to realize the trigger pin is high. Sensor specs say to wait 10uS.
+ 2d6:	8a e0       	ldi	r24, 0x0A	; 10
+ 2d8:	90 e0       	ldi	r25, 0x00	; 0
+ 2da:	0e 94 a3 06 	call	0xd46	; 0xd46 <delayMicroseconds>
+	*_triggerOutput &= ~_triggerBit; // Set trigger pin back to low.
+ 2de:	ee 81       	ldd	r30, Y+6	; 0x06
+ 2e0:	ff 81       	ldd	r31, Y+7	; 0x07
+ 2e2:	90 81       	ld	r25, Z
+ 2e4:	8c 81       	ldd	r24, Y+4	; 0x04
+ 2e6:	80 95       	com	r24
+ 2e8:	89 23       	and	r24, r25
+ 2ea:	80 83       	st	Z, r24
+#if DISABLE_ONE_PIN != true
+	*_triggerMode &= ~_triggerBit;   // Set trigger pin to input (when using one Arduino pin this is technically setting the echo pin to input as both are tied to the same Arduino pin).
+ 2ec:	e8 85       	ldd	r30, Y+8	; 0x08
+ 2ee:	f9 85       	ldd	r31, Y+9	; 0x09
+ 2f0:	90 81       	ld	r25, Z
+ 2f2:	8c 81       	ldd	r24, Y+4	; 0x04
+ 2f4:	80 95       	com	r24
+ 2f6:	89 23       	and	r24, r25
+ 2f8:	80 83       	st	Z, r24
+#endif
+
+	_max_time =  micros() + MAX_SENSOR_DELAY;                  // Set a timeout for the ping to trigger.
+ 2fa:	0e 94 7d 06 	call	0xcfa	; 0xcfa <micros>
+ 2fe:	60 5b       	subi	r22, 0xB0	; 176
+ 300:	79 4b       	sbci	r23, 0xB9	; 185
+ 302:	8f 4f       	sbci	r24, 0xFF	; 255
+ 304:	9f 4f       	sbci	r25, 0xFF	; 255
+ 306:	6e 87       	std	Y+14, r22	; 0x0e
+ 308:	7f 87       	std	Y+15, r23	; 0x0f
+ 30a:	88 8b       	std	Y+16, r24	; 0x10
+ 30c:	99 8b       	std	Y+17, r25	; 0x11
+	while (*_echoInput & _echoBit && micros() <= _max_time) {} // Wait for echo pin to clear.
+ 30e:	ea 85       	ldd	r30, Y+10	; 0x0a
+ 310:	fb 85       	ldd	r31, Y+11	; 0x0b
+ 312:	20 81       	ld	r18, Z
+ 314:	30 e0       	ldi	r19, 0x00	; 0
+ 316:	8d 81       	ldd	r24, Y+5	; 0x05
+ 318:	90 e0       	ldi	r25, 0x00	; 0
+ 31a:	28 23       	and	r18, r24
+ 31c:	39 23       	and	r19, r25
+ 31e:	23 2b       	or	r18, r19
+ 320:	c9 f0       	breq	.+50     	; 0x354 <_ZN7NewPing12ping_triggerEv+0xb2>
+ 322:	0e 94 7d 06 	call	0xcfa	; 0xcfa <micros>
+ 326:	2e 85       	ldd	r18, Y+14	; 0x0e
+ 328:	3f 85       	ldd	r19, Y+15	; 0x0f
+ 32a:	48 89       	ldd	r20, Y+16	; 0x10
+ 32c:	59 89       	ldd	r21, Y+17	; 0x11
+ 32e:	26 17       	cp	r18, r22
+ 330:	37 07       	cpc	r19, r23
+ 332:	48 07       	cpc	r20, r24
+ 334:	59 07       	cpc	r21, r25
+ 336:	70 f0       	brcs	.+28     	; 0x354 <_ZN7NewPing12ping_triggerEv+0xb2>
+ 338:	ea cf       	rjmp	.-44     	; 0x30e <_ZN7NewPing12ping_triggerEv+0x6c>
+	while (!(*_echoInput & _echoBit))                          // Wait for ping to start.
+		if (micros() > _max_time) return false;                // Something went wrong, abort.
+ 33a:	0e 94 7d 06 	call	0xcfa	; 0xcfa <micros>
+ 33e:	2e 85       	ldd	r18, Y+14	; 0x0e
+ 340:	3f 85       	ldd	r19, Y+15	; 0x0f
+ 342:	48 89       	ldd	r20, Y+16	; 0x10
+ 344:	59 89       	ldd	r21, Y+17	; 0x11
+ 346:	26 17       	cp	r18, r22
+ 348:	37 07       	cpc	r19, r23
+ 34a:	48 07       	cpc	r20, r24
+ 34c:	59 07       	cpc	r21, r25
+ 34e:	10 f4       	brcc	.+4      	; 0x354 <_ZN7NewPing12ping_triggerEv+0xb2>
+ 350:	80 e0       	ldi	r24, 0x00	; 0
+ 352:	19 c0       	rjmp	.+50     	; 0x386 <_ZN7NewPing12ping_triggerEv+0xe4>
+	*_triggerMode &= ~_triggerBit;   // Set trigger pin to input (when using one Arduino pin this is technically setting the echo pin to input as both are tied to the same Arduino pin).
+#endif
+
+	_max_time =  micros() + MAX_SENSOR_DELAY;                  // Set a timeout for the ping to trigger.
+	while (*_echoInput & _echoBit && micros() <= _max_time) {} // Wait for echo pin to clear.
+	while (!(*_echoInput & _echoBit))                          // Wait for ping to start.
+ 354:	ea 85       	ldd	r30, Y+10	; 0x0a
+ 356:	fb 85       	ldd	r31, Y+11	; 0x0b
+ 358:	20 81       	ld	r18, Z
+ 35a:	30 e0       	ldi	r19, 0x00	; 0
+ 35c:	8d 81       	ldd	r24, Y+5	; 0x05
+ 35e:	90 e0       	ldi	r25, 0x00	; 0
+ 360:	28 23       	and	r18, r24
+ 362:	39 23       	and	r19, r25
+ 364:	23 2b       	or	r18, r19
+ 366:	49 f3       	breq	.-46     	; 0x33a <_ZN7NewPing12ping_triggerEv+0x98>
+		if (micros() > _max_time) return false;                // Something went wrong, abort.
+
+	_max_time = micros() + _maxEchoTime; // Ping started, set the timeout.
+ 368:	0e 94 7d 06 	call	0xcfa	; 0xcfa <micros>
+ 36c:	2c 85       	ldd	r18, Y+12	; 0x0c
+ 36e:	3d 85       	ldd	r19, Y+13	; 0x0d
+ 370:	40 e0       	ldi	r20, 0x00	; 0
+ 372:	50 e0       	ldi	r21, 0x00	; 0
+ 374:	26 0f       	add	r18, r22
+ 376:	37 1f       	adc	r19, r23
+ 378:	48 1f       	adc	r20, r24
+ 37a:	59 1f       	adc	r21, r25
+ 37c:	2e 87       	std	Y+14, r18	; 0x0e
+ 37e:	3f 87       	std	Y+15, r19	; 0x0f
+ 380:	48 8b       	std	Y+16, r20	; 0x10
+ 382:	59 8b       	std	Y+17, r21	; 0x11
+ 384:	81 e0       	ldi	r24, 0x01	; 1
+	return true;                         // Ping started successfully.
+}
+ 386:	df 91       	pop	r29
+ 388:	cf 91       	pop	r28
+ 38a:	08 95       	ret
+
+0000038c <_ZN7NewPing10ping_timerEPFvvE>:
+
+// ---------------------------------------------------------------------------
+// Timer interrupt ping methods (won't work with ATmega8 and ATmega128)
+// ---------------------------------------------------------------------------
+
+void NewPing::ping_timer(void (*userFunc)(void)) {
+ 38c:	cf 93       	push	r28
+ 38e:	df 93       	push	r29
+ 390:	eb 01       	movw	r28, r22
+	if (!ping_trigger()) return;         // Trigger a ping, if it returns false, return without starting the echo timer.
+ 392:	0e 94 51 01 	call	0x2a2	; 0x2a2 <_ZN7NewPing12ping_triggerEv>
+ 396:	88 23       	and	r24, r24
+ 398:	f1 f0       	breq	.+60     	; 0x3d6 <_ZN7NewPing10ping_timerEPFvvE+0x4a>
+
+void NewPing::timer_stop() { // Disable timer interrupt.
+#if defined (__AVR_ATmega32U4__) // Use Timer4 for ATmega32U4 (Teensy/Leonardo).
+	TIMSK4 = 0;
+#else
+	TIMSK2 &= ~(1<<OCIE2A);
+ 39a:	80 91 70 00 	lds	r24, 0x0070
+ 39e:	8d 7f       	andi	r24, 0xFD	; 253
+ 3a0:	80 93 70 00 	sts	0x0070, r24
+	TCCR4B = (1<<CS42) | (1<<CS41) | (1<<CS40) | (1<<PSR4); // Set Timer4 prescaler to 64 (4uS/count, 4uS-1020uS range).
+	TIFR4 = (1<<TOV4);
+	TCNT4 = 0;    // Reset Timer4 counter.
+#else
+	timer_stop();           // Disable Timer2 interrupt.
+	ASSR &= ~(1<<AS2);      // Set clock, not pin.
+ 3a4:	80 91 b6 00 	lds	r24, 0x00B6
+ 3a8:	8f 7d       	andi	r24, 0xDF	; 223
+ 3aa:	80 93 b6 00 	sts	0x00B6, r24
+	TCCR2A = (1<<WGM21);    // Set Timer2 to CTC mode.
+ 3ae:	82 e0       	ldi	r24, 0x02	; 2
+ 3b0:	80 93 b0 00 	sts	0x00B0, r24
+	TCCR2B = (1<<CS22);     // Set Timer2 prescaler to 64 (4uS/count, 4uS-1020uS range).
+ 3b4:	84 e0       	ldi	r24, 0x04	; 4
+ 3b6:	80 93 b1 00 	sts	0x00B1, r24
+	TCNT2 = 0;              // Reset Timer2 counter.
+ 3ba:	10 92 b2 00 	sts	0x00B2, r1
+volatile unsigned long _ms_cnt;
+
+
+void NewPing::timer_us(unsigned int frequency, void (*userFunc)(void)) {
+	timer_setup();      // Configure the timer interrupt.
+	intFunc = userFunc; // User's function to call when there's a timer event.
+ 3be:	d0 93 17 01 	sts	0x0117, r29
+ 3c2:	c0 93 16 01 	sts	0x0116, r28
+
+#if defined (__AVR_ATmega32U4__) // Use Timer4 for ATmega32U4 (Teensy/Leonardo).
+	OCR4C = min((frequency>>2) - 1, 255); // Every count is 4uS, so divide by 4 (bitwise shift right 2) subtract one, then make sure we don't go over 255 limit.
+	TIMSK4 = (1<<TOIE4);                  // Enable Timer4 interrupt.
+#else
+	OCR2A = min((frequency>>2) - 1, 255); // Every count is 4uS, so divide by 4 (bitwise shift right 2) subtract one, then make sure we don't go over 255 limit.
+ 3c6:	85 e0       	ldi	r24, 0x05	; 5
+ 3c8:	80 93 b3 00 	sts	0x00B3, r24
+	TIMSK2 |= (1<<OCIE2A);                // Enable Timer2 interrupt.
+ 3cc:	80 91 70 00 	lds	r24, 0x0070
+ 3d0:	82 60       	ori	r24, 0x02	; 2
+ 3d2:	80 93 70 00 	sts	0x0070, r24
+// ---------------------------------------------------------------------------
+
+void NewPing::ping_timer(void (*userFunc)(void)) {
+	if (!ping_trigger()) return;         // Trigger a ping, if it returns false, return without starting the echo timer.
+	timer_us(ECHO_TIMER_FREQ, userFunc); // Set ping echo timer check every ECHO_TIMER_FREQ uS.
+}
+ 3d6:	df 91       	pop	r29
+ 3d8:	cf 91       	pop	r28
+ 3da:	08 95       	ret
+
+000003dc <_GLOBAL__I_pingTimer>:
+    Serial.print("=");
+    Serial.print(cm[i]);
+    Serial.print("cm ");
+  }
+  Serial.println();
+}
+ 3dc:	0f 93       	push	r16
+ 3de:	1f 93       	push	r17
+NewPing sonar[SONAR_NUM] = {     // Sensor object array.
+  NewPing(9, 9, MAX_DISTANCE), // Each sensor's trigger pin, echo pin, and max distance to ping.
+  NewPing(10, 10, MAX_DISTANCE),
+  NewPing(11, 11, MAX_DISTANCE),
+  NewPing(12, 12, MAX_DISTANCE),
+};
+ 3e0:	01 e3       	ldi	r16, 0x31	; 49
+ 3e2:	11 e0       	ldi	r17, 0x01	; 1
+ 3e4:	c8 01       	movw	r24, r16
+ 3e6:	69 e0       	ldi	r22, 0x09	; 9
+ 3e8:	49 e0       	ldi	r20, 0x09	; 9
+ 3ea:	28 ec       	ldi	r18, 0xC8	; 200
+ 3ec:	30 e0       	ldi	r19, 0x00	; 0
+ 3ee:	0e 94 8d 00 	call	0x11a	; 0x11a <_ZN7NewPingC1Ehhi>
+ 3f2:	c8 01       	movw	r24, r16
+ 3f4:	42 96       	adiw	r24, 0x12	; 18
+ 3f6:	6a e0       	ldi	r22, 0x0A	; 10
+ 3f8:	4a e0       	ldi	r20, 0x0A	; 10
+ 3fa:	28 ec       	ldi	r18, 0xC8	; 200
+ 3fc:	30 e0       	ldi	r19, 0x00	; 0
+ 3fe:	0e 94 8d 00 	call	0x11a	; 0x11a <_ZN7NewPingC1Ehhi>
+ 402:	c8 01       	movw	r24, r16
+ 404:	84 96       	adiw	r24, 0x24	; 36
+ 406:	6b e0       	ldi	r22, 0x0B	; 11
+ 408:	4b e0       	ldi	r20, 0x0B	; 11
+ 40a:	28 ec       	ldi	r18, 0xC8	; 200
+ 40c:	30 e0       	ldi	r19, 0x00	; 0
+ 40e:	0e 94 8d 00 	call	0x11a	; 0x11a <_ZN7NewPingC1Ehhi>
+ 412:	c8 01       	movw	r24, r16
+ 414:	c6 96       	adiw	r24, 0x36	; 54
+ 416:	6c e0       	ldi	r22, 0x0C	; 12
+ 418:	4c e0       	ldi	r20, 0x0C	; 12
+ 41a:	28 ec       	ldi	r18, 0xC8	; 200
+ 41c:	30 e0       	ldi	r19, 0x00	; 0
+ 41e:	0e 94 8d 00 	call	0x11a	; 0x11a <_ZN7NewPingC1Ehhi>
+    Serial.print("=");
+    Serial.print(cm[i]);
+    Serial.print("cm ");
+  }
+  Serial.println();
+}
+ 422:	1f 91       	pop	r17
+ 424:	0f 91       	pop	r16
+ 426:	08 95       	ret
+
+00000428 <_Z14oneSensorCyclev>:
+void echoCheck() { // If ping received, set the sensor distance to array.
+  if (sonar[currentSensor].check_timer())
+    cm[currentSensor] = sonar[currentSensor].ping_result / US_ROUNDTRIP_CM;
+}
+
+void oneSensorCycle() { // Sensor ping cycle complete, do something with the results.
+ 428:	1f 93       	push	r17
+ 42a:	cf 93       	push	r28
+ 42c:	df 93       	push	r29
+ 42e:	c8 e2       	ldi	r28, 0x28	; 40
+ 430:	d1 e0       	ldi	r29, 0x01	; 1
+ 432:	10 e0       	ldi	r17, 0x00	; 0
+  for (uint8_t i = 0; i < SONAR_NUM; i++) {
+    Serial.print(i);
+ 434:	81 e0       	ldi	r24, 0x01	; 1
+ 436:	92 e0       	ldi	r25, 0x02	; 2
+ 438:	61 2f       	mov	r22, r17
+ 43a:	4a e0       	ldi	r20, 0x0A	; 10
+ 43c:	50 e0       	ldi	r21, 0x00	; 0
+ 43e:	0e 94 03 06 	call	0xc06	; 0xc06 <_ZN5Print5printEhi>
+    Serial.print("=");
+ 442:	81 e0       	ldi	r24, 0x01	; 1
+ 444:	92 e0       	ldi	r25, 0x02	; 2
+ 446:	60 e0       	ldi	r22, 0x00	; 0
+ 448:	71 e0       	ldi	r23, 0x01	; 1
+ 44a:	0e 94 15 06 	call	0xc2a	; 0xc2a <_ZN5Print5printEPKc>
+    Serial.print(cm[i]);
+ 44e:	69 91       	ld	r22, Y+
+ 450:	79 91       	ld	r23, Y+
+ 452:	81 e0       	ldi	r24, 0x01	; 1
+ 454:	92 e0       	ldi	r25, 0x02	; 2
+ 456:	4a e0       	ldi	r20, 0x0A	; 10
+ 458:	50 e0       	ldi	r21, 0x00	; 0
+ 45a:	0e 94 f2 05 	call	0xbe4	; 0xbe4 <_ZN5Print5printEji>
+    Serial.print("cm ");
+ 45e:	81 e0       	ldi	r24, 0x01	; 1
+ 460:	92 e0       	ldi	r25, 0x02	; 2
+ 462:	62 e0       	ldi	r22, 0x02	; 2
+ 464:	71 e0       	ldi	r23, 0x01	; 1
+ 466:	0e 94 15 06 	call	0xc2a	; 0xc2a <_ZN5Print5printEPKc>
+  if (sonar[currentSensor].check_timer())
+    cm[currentSensor] = sonar[currentSensor].ping_result / US_ROUNDTRIP_CM;
+}
+
+void oneSensorCycle() { // Sensor ping cycle complete, do something with the results.
+  for (uint8_t i = 0; i < SONAR_NUM; i++) {
+ 46a:	1f 5f       	subi	r17, 0xFF	; 255
+ 46c:	14 30       	cpi	r17, 0x04	; 4
+ 46e:	11 f7       	brne	.-60     	; 0x434 <_Z14oneSensorCyclev+0xc>
+    Serial.print(i);
+    Serial.print("=");
+    Serial.print(cm[i]);
+    Serial.print("cm ");
+  }
+  Serial.println();
+ 470:	81 e0       	ldi	r24, 0x01	; 1
+ 472:	92 e0       	ldi	r25, 0x02	; 2
+ 474:	0e 94 43 05 	call	0xa86	; 0xa86 <_ZN5Print7printlnEv>
+}
+ 478:	df 91       	pop	r29
+ 47a:	cf 91       	pop	r28
+ 47c:	1f 91       	pop	r17
+ 47e:	08 95       	ret
+
+00000480 <_Z9echoCheckv>:
+    }
+  }
+  // The rest of your code would go here.
+}
+
+void echoCheck() { // If ping received, set the sensor distance to array.
+ 480:	cf 93       	push	r28
+ 482:	df 93       	push	r29
+  if (sonar[currentSensor].check_timer())
+ 484:	80 91 30 01 	lds	r24, 0x0130
+ 488:	22 e1       	ldi	r18, 0x12	; 18
+ 48a:	82 9f       	mul	r24, r18
+ 48c:	c0 01       	movw	r24, r0
+ 48e:	11 24       	eor	r1, r1
+ 490:	8f 5c       	subi	r24, 0xCF	; 207
+ 492:	9e 4f       	sbci	r25, 0xFE	; 254
+ 494:	0e 94 06 01 	call	0x20c	; 0x20c <_ZN7NewPing11check_timerEv>
+ 498:	88 23       	and	r24, r24
+ 49a:	f1 f0       	breq	.+60     	; 0x4d8 <_Z9echoCheckv+0x58>
+    cm[currentSensor] = sonar[currentSensor].ping_result / US_ROUNDTRIP_CM;
+ 49c:	e0 91 30 01 	lds	r30, 0x0130
+ 4a0:	ce 2f       	mov	r28, r30
+ 4a2:	d0 e0       	ldi	r29, 0x00	; 0
+ 4a4:	cc 0f       	add	r28, r28
+ 4a6:	dd 1f       	adc	r29, r29
+ 4a8:	fe 01       	movw	r30, r28
+ 4aa:	83 e0       	ldi	r24, 0x03	; 3
+ 4ac:	ee 0f       	add	r30, r30
+ 4ae:	ff 1f       	adc	r31, r31
+ 4b0:	8a 95       	dec	r24
+ 4b2:	e1 f7       	brne	.-8      	; 0x4ac <_Z9echoCheckv+0x2c>
+ 4b4:	ec 0f       	add	r30, r28
+ 4b6:	fd 1f       	adc	r31, r29
+ 4b8:	ef 5c       	subi	r30, 0xCF	; 207
+ 4ba:	fe 4f       	sbci	r31, 0xFE	; 254
+ 4bc:	60 81       	ld	r22, Z
+ 4be:	71 81       	ldd	r23, Z+1	; 0x01
+ 4c0:	82 81       	ldd	r24, Z+2	; 0x02
+ 4c2:	93 81       	ldd	r25, Z+3	; 0x03
+ 4c4:	29 e3       	ldi	r18, 0x39	; 57
+ 4c6:	30 e0       	ldi	r19, 0x00	; 0
+ 4c8:	40 e0       	ldi	r20, 0x00	; 0
+ 4ca:	50 e0       	ldi	r21, 0x00	; 0
+ 4cc:	0e 94 07 07 	call	0xe0e	; 0xe0e <__udivmodsi4>
+ 4d0:	c8 5d       	subi	r28, 0xD8	; 216
+ 4d2:	de 4f       	sbci	r29, 0xFE	; 254
+ 4d4:	39 83       	std	Y+1, r19	; 0x01
+ 4d6:	28 83       	st	Y, r18
+}
+ 4d8:	df 91       	pop	r29
+ 4da:	cf 91       	pop	r28
+ 4dc:	08 95       	ret
+
+000004de <loop>:
+  pingTimer[0] = millis() + 75;           // First ping starts at 75ms, gives time for the Arduino to chill before starting.
+  for (uint8_t i = 1; i < SONAR_NUM; i++) // Set the starting time for each sensor.
+    pingTimer[i] = pingTimer[i - 1] + PING_INTERVAL;
+}
+
+void loop() {
+ 4de:	bf 92       	push	r11
+ 4e0:	cf 92       	push	r12
+ 4e2:	df 92       	push	r13
+ 4e4:	ef 92       	push	r14
+ 4e6:	ff 92       	push	r15
+ 4e8:	0f 93       	push	r16
+ 4ea:	1f 93       	push	r17
+ 4ec:	cf 93       	push	r28
+ 4ee:	df 93       	push	r29
+ 4f0:	08 e1       	ldi	r16, 0x18	; 24
+ 4f2:	11 e0       	ldi	r17, 0x01	; 1
+ 4f4:	68 e2       	ldi	r22, 0x28	; 40
+ 4f6:	e6 2e       	mov	r14, r22
+ 4f8:	61 e0       	ldi	r22, 0x01	; 1
+ 4fa:	f6 2e       	mov	r15, r22
+ 4fc:	c0 e0       	ldi	r28, 0x00	; 0
+ 4fe:	d0 e0       	ldi	r29, 0x00	; 0
+ 500:	dc 2e       	mov	r13, r28
+  for (uint8_t i = 0; i < SONAR_NUM; i++) { // Loop through all the sensors.
+    if (millis() >= pingTimer[i]) {         // Is it this sensor's time to ping?
+ 502:	0e 94 6f 06 	call	0xcde	; 0xcde <millis>
+ 506:	cc 2e       	mov	r12, r28
+ 508:	bd 2e       	mov	r11, r29
+ 50a:	f8 01       	movw	r30, r16
+ 50c:	20 81       	ld	r18, Z
+ 50e:	31 81       	ldd	r19, Z+1	; 0x01
+ 510:	42 81       	ldd	r20, Z+2	; 0x02
+ 512:	53 81       	ldd	r21, Z+3	; 0x03
+ 514:	62 17       	cp	r22, r18
+ 516:	73 07       	cpc	r23, r19
+ 518:	84 07       	cpc	r24, r20
+ 51a:	95 07       	cpc	r25, r21
+ 51c:	48 f1       	brcs	.+82     	; 0x570 <loop+0x92>
+      pingTimer[i] += PING_INTERVAL * SONAR_NUM;  // Set next time this sensor will be pinged.
+ 51e:	2c 57       	subi	r18, 0x7C	; 124
+ 520:	3f 4f       	sbci	r19, 0xFF	; 255
+ 522:	4f 4f       	sbci	r20, 0xFF	; 255
+ 524:	5f 4f       	sbci	r21, 0xFF	; 255
+ 526:	20 83       	st	Z, r18
+ 528:	31 83       	std	Z+1, r19	; 0x01
+ 52a:	42 83       	std	Z+2, r20	; 0x02
+ 52c:	53 83       	std	Z+3, r21	; 0x03
+      if (i == 0 && currentSensor == SONAR_NUM - 1) oneSensorCycle(); // Sensor ping cycle complete, do something with the results.
+ 52e:	cc 23       	and	r28, r28
+ 530:	31 f4       	brne	.+12     	; 0x53e <loop+0x60>
+ 532:	80 91 30 01 	lds	r24, 0x0130
+ 536:	83 30       	cpi	r24, 0x03	; 3
+ 538:	11 f4       	brne	.+4      	; 0x53e <loop+0x60>
+ 53a:	0e 94 14 02 	call	0x428	; 0x428 <_Z14oneSensorCyclev>
+      sonar[currentSensor].timer_stop();          // Make sure previous timer is canceled before starting a new ping (insurance).
+ 53e:	0e 94 d7 00 	call	0x1ae	; 0x1ae <_ZN7NewPing10timer_stopEv>
+      currentSensor = i;                          // Sensor being accessed.
+ 542:	d0 92 30 01 	sts	0x0130, r13
+      cm[currentSensor] = 0;                      // Make distance zero in case there's no ping echo for this sensor.
+ 546:	f7 01       	movw	r30, r14
+ 548:	11 82       	std	Z+1, r1	; 0x01
+ 54a:	10 82       	st	Z, r1
+      sonar[currentSensor].ping_timer(echoCheck); // Do the ping (processing continues, interrupt will call echoCheck to look for echo).
+ 54c:	8c 2d       	mov	r24, r12
+ 54e:	9b 2d       	mov	r25, r11
+ 550:	88 0f       	add	r24, r24
+ 552:	99 1f       	adc	r25, r25
+ 554:	9c 01       	movw	r18, r24
+ 556:	43 e0       	ldi	r20, 0x03	; 3
+ 558:	22 0f       	add	r18, r18
+ 55a:	33 1f       	adc	r19, r19
+ 55c:	4a 95       	dec	r20
+ 55e:	e1 f7       	brne	.-8      	; 0x558 <loop+0x7a>
+ 560:	82 0f       	add	r24, r18
+ 562:	93 1f       	adc	r25, r19
+ 564:	8f 5c       	subi	r24, 0xCF	; 207
+ 566:	9e 4f       	sbci	r25, 0xFE	; 254
+ 568:	60 e4       	ldi	r22, 0x40	; 64
+ 56a:	72 e0       	ldi	r23, 0x02	; 2
+ 56c:	0e 94 c6 01 	call	0x38c	; 0x38c <_ZN7NewPing10ping_timerEPFvvE>
+ 570:	21 96       	adiw	r28, 0x01	; 1
+ 572:	0c 5f       	subi	r16, 0xFC	; 252
+ 574:	1f 4f       	sbci	r17, 0xFF	; 255
+ 576:	82 e0       	ldi	r24, 0x02	; 2
+ 578:	90 e0       	ldi	r25, 0x00	; 0
+ 57a:	e8 0e       	add	r14, r24
+ 57c:	f9 1e       	adc	r15, r25
+  for (uint8_t i = 1; i < SONAR_NUM; i++) // Set the starting time for each sensor.
+    pingTimer[i] = pingTimer[i - 1] + PING_INTERVAL;
+}
+
+void loop() {
+  for (uint8_t i = 0; i < SONAR_NUM; i++) { // Loop through all the sensors.
+ 57e:	c4 30       	cpi	r28, 0x04	; 4
+ 580:	d1 05       	cpc	r29, r1
+ 582:	09 f0       	breq	.+2      	; 0x586 <loop+0xa8>
+ 584:	bd cf       	rjmp	.-134    	; 0x500 <loop+0x22>
+      cm[currentSensor] = 0;                      // Make distance zero in case there's no ping echo for this sensor.
+      sonar[currentSensor].ping_timer(echoCheck); // Do the ping (processing continues, interrupt will call echoCheck to look for echo).
+    }
+  }
+  // The rest of your code would go here.
+}
+ 586:	df 91       	pop	r29
+ 588:	cf 91       	pop	r28
+ 58a:	1f 91       	pop	r17
+ 58c:	0f 91       	pop	r16
+ 58e:	ff 90       	pop	r15
+ 590:	ef 90       	pop	r14
+ 592:	df 90       	pop	r13
+ 594:	cf 90       	pop	r12
+ 596:	bf 90       	pop	r11
+ 598:	08 95       	ret
+
+0000059a <setup>:
+  NewPing(11, 11, MAX_DISTANCE),
+  NewPing(12, 12, MAX_DISTANCE),
+};
+
+void setup() {
+  Serial.begin(115200);
+ 59a:	81 e0       	ldi	r24, 0x01	; 1
+ 59c:	92 e0       	ldi	r25, 0x02	; 2
+ 59e:	40 e0       	ldi	r20, 0x00	; 0
+ 5a0:	52 ec       	ldi	r21, 0xC2	; 194
+ 5a2:	61 e0       	ldi	r22, 0x01	; 1
+ 5a4:	70 e0       	ldi	r23, 0x00	; 0
+ 5a6:	0e 94 92 03 	call	0x724	; 0x724 <_ZN14HardwareSerial5beginEm>
+  pingTimer[0] = millis() + 75;           // First ping starts at 75ms, gives time for the Arduino to chill before starting.
+ 5aa:	0e 94 6f 06 	call	0xcde	; 0xcde <millis>
+ 5ae:	65 5b       	subi	r22, 0xB5	; 181
+ 5b0:	7f 4f       	sbci	r23, 0xFF	; 255
+ 5b2:	8f 4f       	sbci	r24, 0xFF	; 255
+ 5b4:	9f 4f       	sbci	r25, 0xFF	; 255
+ 5b6:	60 93 18 01 	sts	0x0118, r22
+ 5ba:	70 93 19 01 	sts	0x0119, r23
+ 5be:	80 93 1a 01 	sts	0x011A, r24
+ 5c2:	90 93 1b 01 	sts	0x011B, r25
+  for (uint8_t i = 1; i < SONAR_NUM; i++) // Set the starting time for each sensor.
+    pingTimer[i] = pingTimer[i - 1] + PING_INTERVAL;
+ 5c6:	6f 5d       	subi	r22, 0xDF	; 223
+ 5c8:	7f 4f       	sbci	r23, 0xFF	; 255
+ 5ca:	8f 4f       	sbci	r24, 0xFF	; 255
+ 5cc:	9f 4f       	sbci	r25, 0xFF	; 255
+ 5ce:	60 93 1c 01 	sts	0x011C, r22
+ 5d2:	70 93 1d 01 	sts	0x011D, r23
+ 5d6:	80 93 1e 01 	sts	0x011E, r24
+ 5da:	90 93 1f 01 	sts	0x011F, r25
+ 5de:	6f 5d       	subi	r22, 0xDF	; 223
+ 5e0:	7f 4f       	sbci	r23, 0xFF	; 255
+ 5e2:	8f 4f       	sbci	r24, 0xFF	; 255
+ 5e4:	9f 4f       	sbci	r25, 0xFF	; 255
+ 5e6:	60 93 20 01 	sts	0x0120, r22
+ 5ea:	70 93 21 01 	sts	0x0121, r23
+ 5ee:	80 93 22 01 	sts	0x0122, r24
+ 5f2:	90 93 23 01 	sts	0x0123, r25
+ 5f6:	6f 5d       	subi	r22, 0xDF	; 223
+ 5f8:	7f 4f       	sbci	r23, 0xFF	; 255
+ 5fa:	8f 4f       	sbci	r24, 0xFF	; 255
+ 5fc:	9f 4f       	sbci	r25, 0xFF	; 255
+ 5fe:	60 93 24 01 	sts	0x0124, r22
+ 602:	70 93 25 01 	sts	0x0125, r23
+ 606:	80 93 26 01 	sts	0x0126, r24
+ 60a:	90 93 27 01 	sts	0x0127, r25
+}
+ 60e:	08 95       	ret
+
+00000610 <_Z11serialEventv>:
+    !defined(SIG_UART0_RECV) && !defined(USART0_RX_vect) && \
+	!defined(SIG_UART_RECV)
+  #error "Don't know what the Data Received vector is called for the first UART"
+#else
+  void serialEvent() __attribute__((weak));
+  void serialEvent() {}
+ 610:	08 95       	ret
+
+00000612 <__vector_18>:
+  #define serialEvent_implemented
+#if defined(USART_RX_vect)
+  SIGNAL(USART_RX_vect)
+ 612:	1f 92       	push	r1
+ 614:	0f 92       	push	r0
+ 616:	0f b6       	in	r0, 0x3f	; 63
+ 618:	0f 92       	push	r0
+ 61a:	11 24       	eor	r1, r1
+ 61c:	2f 93       	push	r18
+ 61e:	3f 93       	push	r19
+ 620:	4f 93       	push	r20
+ 622:	8f 93       	push	r24
+ 624:	9f 93       	push	r25
+ 626:	ef 93       	push	r30
+ 628:	ff 93       	push	r31
+#elif defined(SIG_UART_RECV)
+  SIGNAL(SIG_UART_RECV)
+#endif
+  {
+  #if defined(UDR0)
+    if (bit_is_clear(UCSR0A, UPE0)) {
+ 62a:	80 91 c0 00 	lds	r24, 0x00C0
+ 62e:	82 fd       	sbrc	r24, 2
+ 630:	1d c0       	rjmp	.+58     	; 0x66c <__vector_18+0x5a>
+      unsigned char c = UDR0;
+ 632:	40 91 c6 00 	lds	r20, 0x00C6
+  ring_buffer tx_buffer3  =  { { 0 }, 0, 0 };
+#endif
+
+inline void store_char(unsigned char c, ring_buffer *buffer)
+{
+  int i = (unsigned int)(buffer->head + 1) % SERIAL_BUFFER_SIZE;
+ 636:	20 91 b9 01 	lds	r18, 0x01B9
+ 63a:	30 91 ba 01 	lds	r19, 0x01BA
+
+  // if we should be storing the received character into the location
+  // just before the tail (meaning that the head would advance to the
+  // current location of the tail), we're about to overflow the buffer
+  // and so we don't write the character or advance the head.
+  if (i != buffer->tail) {
+ 63e:	2f 5f       	subi	r18, 0xFF	; 255
+ 640:	3f 4f       	sbci	r19, 0xFF	; 255
+ 642:	2f 73       	andi	r18, 0x3F	; 63
+ 644:	30 70       	andi	r19, 0x00	; 0
+ 646:	80 91 bb 01 	lds	r24, 0x01BB
+ 64a:	90 91 bc 01 	lds	r25, 0x01BC
+ 64e:	28 17       	cp	r18, r24
+ 650:	39 07       	cpc	r19, r25
+ 652:	71 f0       	breq	.+28     	; 0x670 <__vector_18+0x5e>
+    buffer->buffer[buffer->head] = c;
+ 654:	e0 91 b9 01 	lds	r30, 0x01B9
+ 658:	f0 91 ba 01 	lds	r31, 0x01BA
+ 65c:	e7 58       	subi	r30, 0x87	; 135
+ 65e:	fe 4f       	sbci	r31, 0xFE	; 254
+ 660:	40 83       	st	Z, r20
+    buffer->head = i;
+ 662:	30 93 ba 01 	sts	0x01BA, r19
+ 666:	20 93 b9 01 	sts	0x01B9, r18
+ 66a:	02 c0       	rjmp	.+4      	; 0x670 <__vector_18+0x5e>
+  #if defined(UDR0)
+    if (bit_is_clear(UCSR0A, UPE0)) {
+      unsigned char c = UDR0;
+      store_char(c, &rx_buffer);
+    } else {
+      unsigned char c = UDR0;
+ 66c:	80 91 c6 00 	lds	r24, 0x00C6
+      unsigned char c = UDR;
+    };
+  #else
+    #error UDR not defined
+  #endif
+  }
+ 670:	ff 91       	pop	r31
+ 672:	ef 91       	pop	r30
+ 674:	9f 91       	pop	r25
+ 676:	8f 91       	pop	r24
+ 678:	4f 91       	pop	r20
+ 67a:	3f 91       	pop	r19
+ 67c:	2f 91       	pop	r18
+ 67e:	0f 90       	pop	r0
+ 680:	0f be       	out	0x3f, r0	; 63
+ 682:	0f 90       	pop	r0
+ 684:	1f 90       	pop	r1
+ 686:	18 95       	reti
+
+00000688 <_Z14serialEventRunv>:
+  _rx_buffer->head = _rx_buffer->tail;
+}
+
+int HardwareSerial::available(void)
+{
+  return (unsigned int)(SERIAL_BUFFER_SIZE + _rx_buffer->head - _rx_buffer->tail) % SERIAL_BUFFER_SIZE;
+ 688:	e0 91 0d 02 	lds	r30, 0x020D
+ 68c:	f0 91 0e 02 	lds	r31, 0x020E
+ 690:	e0 5c       	subi	r30, 0xC0	; 192
+ 692:	ff 4f       	sbci	r31, 0xFF	; 255
+ 694:	81 91       	ld	r24, Z+
+ 696:	91 91       	ld	r25, Z+
+ 698:	20 81       	ld	r18, Z
+ 69a:	31 81       	ldd	r19, Z+1	; 0x01
+#endif
+
+void serialEventRun(void)
+{
+#ifdef serialEvent_implemented
+  if (Serial.available()) serialEvent();
+ 69c:	82 1b       	sub	r24, r18
+ 69e:	93 0b       	sbc	r25, r19
+ 6a0:	8f 73       	andi	r24, 0x3F	; 63
+ 6a2:	90 70       	andi	r25, 0x00	; 0
+ 6a4:	89 2b       	or	r24, r25
+ 6a6:	11 f0       	breq	.+4      	; 0x6ac <_Z14serialEventRunv+0x24>
+ 6a8:	0e 94 08 03 	call	0x610	; 0x610 <_Z11serialEventv>
+ 6ac:	08 95       	ret
+
+000006ae <__vector_19>:
+#elif defined(UART_UDRE_vect)
+ISR(UART_UDRE_vect)
+#elif defined(USART0_UDRE_vect)
+ISR(USART0_UDRE_vect)
+#elif defined(USART_UDRE_vect)
+ISR(USART_UDRE_vect)
+ 6ae:	1f 92       	push	r1
+ 6b0:	0f 92       	push	r0
+ 6b2:	0f b6       	in	r0, 0x3f	; 63
+ 6b4:	0f 92       	push	r0
+ 6b6:	11 24       	eor	r1, r1
+ 6b8:	2f 93       	push	r18
+ 6ba:	3f 93       	push	r19
+ 6bc:	8f 93       	push	r24
+ 6be:	9f 93       	push	r25
+ 6c0:	ef 93       	push	r30
+ 6c2:	ff 93       	push	r31
+#endif
+{
+  if (tx_buffer.head == tx_buffer.tail) {
+ 6c4:	20 91 fd 01 	lds	r18, 0x01FD
+ 6c8:	30 91 fe 01 	lds	r19, 0x01FE
+ 6cc:	80 91 ff 01 	lds	r24, 0x01FF
+ 6d0:	90 91 00 02 	lds	r25, 0x0200
+ 6d4:	28 17       	cp	r18, r24
+ 6d6:	39 07       	cpc	r19, r25
+ 6d8:	31 f4       	brne	.+12     	; 0x6e6 <__vector_19+0x38>
+	// Buffer empty, so disable interrupts
+#if defined(UCSR0B)
+    cbi(UCSR0B, UDRIE0);
+ 6da:	80 91 c1 00 	lds	r24, 0x00C1
+ 6de:	8f 7d       	andi	r24, 0xDF	; 223
+ 6e0:	80 93 c1 00 	sts	0x00C1, r24
+ 6e4:	14 c0       	rjmp	.+40     	; 0x70e <__vector_19+0x60>
+    cbi(UCSRB, UDRIE);
+#endif
+  }
+  else {
+    // There is more data in the output buffer. Send the next byte
+    unsigned char c = tx_buffer.buffer[tx_buffer.tail];
+ 6e6:	e0 91 ff 01 	lds	r30, 0x01FF
+ 6ea:	f0 91 00 02 	lds	r31, 0x0200
+ 6ee:	e3 54       	subi	r30, 0x43	; 67
+ 6f0:	fe 4f       	sbci	r31, 0xFE	; 254
+ 6f2:	20 81       	ld	r18, Z
+    tx_buffer.tail = (tx_buffer.tail + 1) % SERIAL_BUFFER_SIZE;
+ 6f4:	80 91 ff 01 	lds	r24, 0x01FF
+ 6f8:	90 91 00 02 	lds	r25, 0x0200
+ 6fc:	01 96       	adiw	r24, 0x01	; 1
+ 6fe:	8f 73       	andi	r24, 0x3F	; 63
+ 700:	90 70       	andi	r25, 0x00	; 0
+ 702:	90 93 00 02 	sts	0x0200, r25
+ 706:	80 93 ff 01 	sts	0x01FF, r24
+	
+  #if defined(UDR0)
+    UDR0 = c;
+ 70a:	20 93 c6 00 	sts	0x00C6, r18
+    UDR = c;
+  #else
+    #error UDR not defined
+  #endif
+  }
+}
+ 70e:	ff 91       	pop	r31
+ 710:	ef 91       	pop	r30
+ 712:	9f 91       	pop	r25
+ 714:	8f 91       	pop	r24
+ 716:	3f 91       	pop	r19
+ 718:	2f 91       	pop	r18
+ 71a:	0f 90       	pop	r0
+ 71c:	0f be       	out	0x3f, r0	; 63
+ 71e:	0f 90       	pop	r0
+ 720:	1f 90       	pop	r1
+ 722:	18 95       	reti
+
+00000724 <_ZN14HardwareSerial5beginEm>:
+  _u2x = u2x;
+}
+
+// Public Methods //////////////////////////////////////////////////////////////
+
+void HardwareSerial::begin(unsigned long baud)
+ 724:	af 92       	push	r10
+ 726:	bf 92       	push	r11
+ 728:	df 92       	push	r13
+ 72a:	ef 92       	push	r14
+ 72c:	ff 92       	push	r15
+ 72e:	0f 93       	push	r16
+ 730:	1f 93       	push	r17
+ 732:	cf 93       	push	r28
+ 734:	df 93       	push	r29
+ 736:	ec 01       	movw	r28, r24
+ 738:	7a 01       	movw	r14, r20
+ 73a:	8b 01       	movw	r16, r22
+ 73c:	dd 24       	eor	r13, r13
+ 73e:	40 30       	cpi	r20, 0x00	; 0
+ 740:	81 ee       	ldi	r24, 0xE1	; 225
+ 742:	58 07       	cpc	r21, r24
+ 744:	80 e0       	ldi	r24, 0x00	; 0
+ 746:	68 07       	cpc	r22, r24
+ 748:	80 e0       	ldi	r24, 0x00	; 0
+ 74a:	78 07       	cpc	r23, r24
+ 74c:	11 f0       	breq	.+4      	; 0x752 <_ZN14HardwareSerial5beginEm+0x2e>
+ 74e:	dd 24       	eor	r13, r13
+ 750:	d3 94       	inc	r13
+#endif
+
+try_again:
+  
+  if (use_u2x) {
+    *_ucsra = 1 << _u2x;
+ 752:	91 e0       	ldi	r25, 0x01	; 1
+ 754:	a9 2e       	mov	r10, r25
+ 756:	b1 2c       	mov	r11, r1
+ 758:	ec 89       	ldd	r30, Y+20	; 0x14
+ 75a:	fd 89       	ldd	r31, Y+21	; 0x15
+  }
+#endif
+
+try_again:
+  
+  if (use_u2x) {
+ 75c:	dd 20       	and	r13, r13
+ 75e:	69 f0       	breq	.+26     	; 0x77a <_ZN14HardwareSerial5beginEm+0x56>
+    *_ucsra = 1 << _u2x;
+ 760:	c5 01       	movw	r24, r10
+ 762:	08 a0       	ldd	r0, Y+32	; 0x20
+ 764:	02 c0       	rjmp	.+4      	; 0x76a <_ZN14HardwareSerial5beginEm+0x46>
+ 766:	88 0f       	add	r24, r24
+ 768:	99 1f       	adc	r25, r25
+ 76a:	0a 94       	dec	r0
+ 76c:	e2 f7       	brpl	.-8      	; 0x766 <_ZN14HardwareSerial5beginEm+0x42>
+ 76e:	80 83       	st	Z, r24
+    baud_setting = (F_CPU / 4 / baud - 1) / 2;
+ 770:	60 e0       	ldi	r22, 0x00	; 0
+ 772:	79 e0       	ldi	r23, 0x09	; 9
+ 774:	8d e3       	ldi	r24, 0x3D	; 61
+ 776:	90 e0       	ldi	r25, 0x00	; 0
+ 778:	05 c0       	rjmp	.+10     	; 0x784 <_ZN14HardwareSerial5beginEm+0x60>
+  } else {
+    *_ucsra = 0;
+ 77a:	10 82       	st	Z, r1
+    baud_setting = (F_CPU / 8 / baud - 1) / 2;
+ 77c:	60 e8       	ldi	r22, 0x80	; 128
+ 77e:	74 e8       	ldi	r23, 0x84	; 132
+ 780:	8e e1       	ldi	r24, 0x1E	; 30
+ 782:	90 e0       	ldi	r25, 0x00	; 0
+ 784:	a8 01       	movw	r20, r16
+ 786:	97 01       	movw	r18, r14
+ 788:	0e 94 07 07 	call	0xe0e	; 0xe0e <__udivmodsi4>
+ 78c:	21 50       	subi	r18, 0x01	; 1
+ 78e:	30 40       	sbci	r19, 0x00	; 0
+ 790:	40 40       	sbci	r20, 0x00	; 0
+ 792:	50 40       	sbci	r21, 0x00	; 0
+ 794:	56 95       	lsr	r21
+ 796:	47 95       	ror	r20
+ 798:	37 95       	ror	r19
+ 79a:	27 95       	ror	r18
+  }
+  
+  if ((baud_setting > 4095) && use_u2x)
+ 79c:	80 e1       	ldi	r24, 0x10	; 16
+ 79e:	20 30       	cpi	r18, 0x00	; 0
+ 7a0:	38 07       	cpc	r19, r24
+ 7a2:	20 f0       	brcs	.+8      	; 0x7ac <_ZN14HardwareSerial5beginEm+0x88>
+ 7a4:	dd 20       	and	r13, r13
+ 7a6:	11 f0       	breq	.+4      	; 0x7ac <_ZN14HardwareSerial5beginEm+0x88>
+ 7a8:	dd 24       	eor	r13, r13
+ 7aa:	d6 cf       	rjmp	.-84     	; 0x758 <_ZN14HardwareSerial5beginEm+0x34>
+    use_u2x = false;
+    goto try_again;
+  }
+
+  // assign the baud_setting, a.k.a. ubbr (USART Baud Rate Register)
+  *_ubrrh = baud_setting >> 8;
+ 7ac:	e8 89       	ldd	r30, Y+16	; 0x10
+ 7ae:	f9 89       	ldd	r31, Y+17	; 0x11
+ 7b0:	30 83       	st	Z, r19
+  *_ubrrl = baud_setting;
+ 7b2:	ea 89       	ldd	r30, Y+18	; 0x12
+ 7b4:	fb 89       	ldd	r31, Y+19	; 0x13
+ 7b6:	20 83       	st	Z, r18
+
+  transmitting = false;
+ 7b8:	19 a2       	std	Y+33, r1	; 0x21
+
+  sbi(*_ucsrb, _rxen);
+ 7ba:	ee 89       	ldd	r30, Y+22	; 0x16
+ 7bc:	ff 89       	ldd	r31, Y+23	; 0x17
+ 7be:	40 81       	ld	r20, Z
+ 7c0:	21 e0       	ldi	r18, 0x01	; 1
+ 7c2:	30 e0       	ldi	r19, 0x00	; 0
+ 7c4:	c9 01       	movw	r24, r18
+ 7c6:	0c 8c       	ldd	r0, Y+28	; 0x1c
+ 7c8:	02 c0       	rjmp	.+4      	; 0x7ce <_ZN14HardwareSerial5beginEm+0xaa>
+ 7ca:	88 0f       	add	r24, r24
+ 7cc:	99 1f       	adc	r25, r25
+ 7ce:	0a 94       	dec	r0
+ 7d0:	e2 f7       	brpl	.-8      	; 0x7ca <_ZN14HardwareSerial5beginEm+0xa6>
+ 7d2:	48 2b       	or	r20, r24
+ 7d4:	40 83       	st	Z, r20
+  sbi(*_ucsrb, _txen);
+ 7d6:	ee 89       	ldd	r30, Y+22	; 0x16
+ 7d8:	ff 89       	ldd	r31, Y+23	; 0x17
+ 7da:	40 81       	ld	r20, Z
+ 7dc:	c9 01       	movw	r24, r18
+ 7de:	0d 8c       	ldd	r0, Y+29	; 0x1d
+ 7e0:	02 c0       	rjmp	.+4      	; 0x7e6 <_ZN14HardwareSerial5beginEm+0xc2>
+ 7e2:	88 0f       	add	r24, r24
+ 7e4:	99 1f       	adc	r25, r25
+ 7e6:	0a 94       	dec	r0
+ 7e8:	e2 f7       	brpl	.-8      	; 0x7e2 <_ZN14HardwareSerial5beginEm+0xbe>
+ 7ea:	48 2b       	or	r20, r24
+ 7ec:	40 83       	st	Z, r20
+  sbi(*_ucsrb, _rxcie);
+ 7ee:	ee 89       	ldd	r30, Y+22	; 0x16
+ 7f0:	ff 89       	ldd	r31, Y+23	; 0x17
+ 7f2:	40 81       	ld	r20, Z
+ 7f4:	c9 01       	movw	r24, r18
+ 7f6:	0e 8c       	ldd	r0, Y+30	; 0x1e
+ 7f8:	02 c0       	rjmp	.+4      	; 0x7fe <_ZN14HardwareSerial5beginEm+0xda>
+ 7fa:	88 0f       	add	r24, r24
+ 7fc:	99 1f       	adc	r25, r25
+ 7fe:	0a 94       	dec	r0
+ 800:	e2 f7       	brpl	.-8      	; 0x7fa <_ZN14HardwareSerial5beginEm+0xd6>
+ 802:	48 2b       	or	r20, r24
+ 804:	40 83       	st	Z, r20
+  cbi(*_ucsrb, _udrie);
+ 806:	ee 89       	ldd	r30, Y+22	; 0x16
+ 808:	ff 89       	ldd	r31, Y+23	; 0x17
+ 80a:	80 81       	ld	r24, Z
+ 80c:	0f 8c       	ldd	r0, Y+31	; 0x1f
+ 80e:	02 c0       	rjmp	.+4      	; 0x814 <_ZN14HardwareSerial5beginEm+0xf0>
+ 810:	22 0f       	add	r18, r18
+ 812:	33 1f       	adc	r19, r19
+ 814:	0a 94       	dec	r0
+ 816:	e2 f7       	brpl	.-8      	; 0x810 <_ZN14HardwareSerial5beginEm+0xec>
+ 818:	20 95       	com	r18
+ 81a:	28 23       	and	r18, r24
+ 81c:	20 83       	st	Z, r18
+}
+ 81e:	df 91       	pop	r29
+ 820:	cf 91       	pop	r28
+ 822:	1f 91       	pop	r17
+ 824:	0f 91       	pop	r16
+ 826:	ff 90       	pop	r15
+ 828:	ef 90       	pop	r14
+ 82a:	df 90       	pop	r13
+ 82c:	bf 90       	pop	r11
+ 82e:	af 90       	pop	r10
+ 830:	08 95       	ret
+
+00000832 <_ZN14HardwareSerial9availableEv>:
+  _rx_buffer->head = _rx_buffer->tail;
+}
+
+int HardwareSerial::available(void)
+{
+  return (unsigned int)(SERIAL_BUFFER_SIZE + _rx_buffer->head - _rx_buffer->tail) % SERIAL_BUFFER_SIZE;
+ 832:	dc 01       	movw	r26, r24
+ 834:	1c 96       	adiw	r26, 0x0c	; 12
+ 836:	ed 91       	ld	r30, X+
+ 838:	fc 91       	ld	r31, X
+ 83a:	1d 97       	sbiw	r26, 0x0d	; 13
+ 83c:	e0 5c       	subi	r30, 0xC0	; 192
+ 83e:	ff 4f       	sbci	r31, 0xFF	; 255
+ 840:	21 91       	ld	r18, Z+
+ 842:	31 91       	ld	r19, Z+
+ 844:	80 81       	ld	r24, Z
+ 846:	91 81       	ldd	r25, Z+1	; 0x01
+ 848:	28 1b       	sub	r18, r24
+ 84a:	39 0b       	sbc	r19, r25
+ 84c:	2f 73       	andi	r18, 0x3F	; 63
+ 84e:	30 70       	andi	r19, 0x00	; 0
+}
+ 850:	c9 01       	movw	r24, r18
+ 852:	08 95       	ret
+
+00000854 <_ZN14HardwareSerial4peekEv>:
+
+int HardwareSerial::peek(void)
+{
+  if (_rx_buffer->head == _rx_buffer->tail) {
+ 854:	dc 01       	movw	r26, r24
+ 856:	1c 96       	adiw	r26, 0x0c	; 12
+ 858:	ed 91       	ld	r30, X+
+ 85a:	fc 91       	ld	r31, X
+ 85c:	1d 97       	sbiw	r26, 0x0d	; 13
+ 85e:	e0 5c       	subi	r30, 0xC0	; 192
+ 860:	ff 4f       	sbci	r31, 0xFF	; 255
+ 862:	20 81       	ld	r18, Z
+ 864:	31 81       	ldd	r19, Z+1	; 0x01
+ 866:	e0 54       	subi	r30, 0x40	; 64
+ 868:	f0 40       	sbci	r31, 0x00	; 0
+ 86a:	df 01       	movw	r26, r30
+ 86c:	ae 5b       	subi	r26, 0xBE	; 190
+ 86e:	bf 4f       	sbci	r27, 0xFF	; 255
+ 870:	8d 91       	ld	r24, X+
+ 872:	9c 91       	ld	r25, X
+ 874:	11 97       	sbiw	r26, 0x01	; 1
+ 876:	28 17       	cp	r18, r24
+ 878:	39 07       	cpc	r19, r25
+ 87a:	19 f4       	brne	.+6      	; 0x882 <_ZN14HardwareSerial4peekEv+0x2e>
+ 87c:	2f ef       	ldi	r18, 0xFF	; 255
+ 87e:	3f ef       	ldi	r19, 0xFF	; 255
+ 880:	07 c0       	rjmp	.+14     	; 0x890 <_ZN14HardwareSerial4peekEv+0x3c>
+    return -1;
+  } else {
+    return _rx_buffer->buffer[_rx_buffer->tail];
+ 882:	8d 91       	ld	r24, X+
+ 884:	9c 91       	ld	r25, X
+ 886:	e8 0f       	add	r30, r24
+ 888:	f9 1f       	adc	r31, r25
+ 88a:	80 81       	ld	r24, Z
+ 88c:	28 2f       	mov	r18, r24
+ 88e:	30 e0       	ldi	r19, 0x00	; 0
+  }
+}
+ 890:	c9 01       	movw	r24, r18
+ 892:	08 95       	ret
+
+00000894 <_ZN14HardwareSerial4readEv>:
+
+int HardwareSerial::read(void)
+{
+  // if the head isn't ahead of the tail, we don't have any characters
+  if (_rx_buffer->head == _rx_buffer->tail) {
+ 894:	dc 01       	movw	r26, r24
+ 896:	1c 96       	adiw	r26, 0x0c	; 12
+ 898:	ed 91       	ld	r30, X+
+ 89a:	fc 91       	ld	r31, X
+ 89c:	1d 97       	sbiw	r26, 0x0d	; 13
+ 89e:	e0 5c       	subi	r30, 0xC0	; 192
+ 8a0:	ff 4f       	sbci	r31, 0xFF	; 255
+ 8a2:	20 81       	ld	r18, Z
+ 8a4:	31 81       	ldd	r19, Z+1	; 0x01
+ 8a6:	e0 54       	subi	r30, 0x40	; 64
+ 8a8:	f0 40       	sbci	r31, 0x00	; 0
+ 8aa:	df 01       	movw	r26, r30
+ 8ac:	ae 5b       	subi	r26, 0xBE	; 190
+ 8ae:	bf 4f       	sbci	r27, 0xFF	; 255
+ 8b0:	8d 91       	ld	r24, X+
+ 8b2:	9c 91       	ld	r25, X
+ 8b4:	11 97       	sbiw	r26, 0x01	; 1
+ 8b6:	28 17       	cp	r18, r24
+ 8b8:	39 07       	cpc	r19, r25
+ 8ba:	19 f4       	brne	.+6      	; 0x8c2 <_ZN14HardwareSerial4readEv+0x2e>
+ 8bc:	2f ef       	ldi	r18, 0xFF	; 255
+ 8be:	3f ef       	ldi	r19, 0xFF	; 255
+ 8c0:	10 c0       	rjmp	.+32     	; 0x8e2 <_ZN14HardwareSerial4readEv+0x4e>
+    return -1;
+  } else {
+    unsigned char c = _rx_buffer->buffer[_rx_buffer->tail];
+ 8c2:	8d 91       	ld	r24, X+
+ 8c4:	9c 91       	ld	r25, X
+ 8c6:	11 97       	sbiw	r26, 0x01	; 1
+ 8c8:	e8 0f       	add	r30, r24
+ 8ca:	f9 1f       	adc	r31, r25
+ 8cc:	20 81       	ld	r18, Z
+    _rx_buffer->tail = (unsigned int)(_rx_buffer->tail + 1) % SERIAL_BUFFER_SIZE;
+ 8ce:	8d 91       	ld	r24, X+
+ 8d0:	9c 91       	ld	r25, X
+ 8d2:	11 97       	sbiw	r26, 0x01	; 1
+ 8d4:	01 96       	adiw	r24, 0x01	; 1
+ 8d6:	8f 73       	andi	r24, 0x3F	; 63
+ 8d8:	90 70       	andi	r25, 0x00	; 0
+ 8da:	11 96       	adiw	r26, 0x01	; 1
+ 8dc:	9c 93       	st	X, r25
+ 8de:	8e 93       	st	-X, r24
+    return c;
+ 8e0:	30 e0       	ldi	r19, 0x00	; 0
+  }
+}
+ 8e2:	c9 01       	movw	r24, r18
+ 8e4:	08 95       	ret
+
+000008e6 <_ZN14HardwareSerial5flushEv>:
+
+void HardwareSerial::flush()
+ 8e6:	dc 01       	movw	r26, r24
+{
+  // UDR is kept full while the buffer is not empty, so TXC triggers when EMPTY && SENT
+  while (transmitting && ! (*_ucsra & _BV(TXC0)));
+ 8e8:	91 96       	adiw	r26, 0x21	; 33
+ 8ea:	8c 91       	ld	r24, X
+ 8ec:	91 97       	sbiw	r26, 0x21	; 33
+ 8ee:	88 23       	and	r24, r24
+ 8f0:	39 f0       	breq	.+14     	; 0x900 <__stack+0x1>
+ 8f2:	54 96       	adiw	r26, 0x14	; 20
+ 8f4:	ed 91       	ld	r30, X+
+ 8f6:	fc 91       	ld	r31, X
+ 8f8:	55 97       	sbiw	r26, 0x15	; 21
+ 8fa:	80 81       	ld	r24, Z
+ 8fc:	86 ff       	sbrs	r24, 6
+ 8fe:	f9 cf       	rjmp	.-14     	; 0x8f2 <_ZN14HardwareSerial5flushEv+0xc>
+  transmitting = false;
+ 900:	91 96       	adiw	r26, 0x21	; 33
+ 902:	1c 92       	st	X, r1
+}
+ 904:	08 95       	ret
+
+00000906 <_ZN14HardwareSerial5writeEh>:
+
+size_t HardwareSerial::write(uint8_t c)
+ 906:	cf 93       	push	r28
+ 908:	df 93       	push	r29
+ 90a:	ec 01       	movw	r28, r24
+{
+  int i = (_tx_buffer->head + 1) % SERIAL_BUFFER_SIZE;
+ 90c:	ee 85       	ldd	r30, Y+14	; 0x0e
+ 90e:	ff 85       	ldd	r31, Y+15	; 0x0f
+ 910:	e0 5c       	subi	r30, 0xC0	; 192
+ 912:	ff 4f       	sbci	r31, 0xFF	; 255
+ 914:	20 81       	ld	r18, Z
+ 916:	31 81       	ldd	r19, Z+1	; 0x01
+ 918:	e0 54       	subi	r30, 0x40	; 64
+ 91a:	f0 40       	sbci	r31, 0x00	; 0
+ 91c:	2f 5f       	subi	r18, 0xFF	; 255
+ 91e:	3f 4f       	sbci	r19, 0xFF	; 255
+ 920:	2f 73       	andi	r18, 0x3F	; 63
+ 922:	30 70       	andi	r19, 0x00	; 0
+	
+  // If the output buffer is full, there's nothing for it other than to 
+  // wait for the interrupt handler to empty it a bit
+  // ???: return 0 here instead?
+  while (i == _tx_buffer->tail)
+ 924:	df 01       	movw	r26, r30
+ 926:	ae 5b       	subi	r26, 0xBE	; 190
+ 928:	bf 4f       	sbci	r27, 0xFF	; 255
+ 92a:	8d 91       	ld	r24, X+
+ 92c:	9c 91       	ld	r25, X
+ 92e:	11 97       	sbiw	r26, 0x01	; 1
+ 930:	28 17       	cp	r18, r24
+ 932:	39 07       	cpc	r19, r25
+ 934:	d1 f3       	breq	.-12     	; 0x92a <_ZN14HardwareSerial5writeEh+0x24>
+    ;
+	
+  _tx_buffer->buffer[_tx_buffer->head] = c;
+ 936:	e0 5c       	subi	r30, 0xC0	; 192
+ 938:	ff 4f       	sbci	r31, 0xFF	; 255
+ 93a:	80 81       	ld	r24, Z
+ 93c:	91 81       	ldd	r25, Z+1	; 0x01
+ 93e:	e0 54       	subi	r30, 0x40	; 64
+ 940:	f0 40       	sbci	r31, 0x00	; 0
+ 942:	e8 0f       	add	r30, r24
+ 944:	f9 1f       	adc	r31, r25
+ 946:	60 83       	st	Z, r22
+  _tx_buffer->head = i;
+ 948:	ee 85       	ldd	r30, Y+14	; 0x0e
+ 94a:	ff 85       	ldd	r31, Y+15	; 0x0f
+ 94c:	e0 5c       	subi	r30, 0xC0	; 192
+ 94e:	ff 4f       	sbci	r31, 0xFF	; 255
+ 950:	31 83       	std	Z+1, r19	; 0x01
+ 952:	20 83       	st	Z, r18
+	
+  sbi(*_ucsrb, _udrie);
+ 954:	ee 89       	ldd	r30, Y+22	; 0x16
+ 956:	ff 89       	ldd	r31, Y+23	; 0x17
+ 958:	20 81       	ld	r18, Z
+ 95a:	81 e0       	ldi	r24, 0x01	; 1
+ 95c:	90 e0       	ldi	r25, 0x00	; 0
+ 95e:	0f 8c       	ldd	r0, Y+31	; 0x1f
+ 960:	02 c0       	rjmp	.+4      	; 0x966 <_ZN14HardwareSerial5writeEh+0x60>
+ 962:	88 0f       	add	r24, r24
+ 964:	99 1f       	adc	r25, r25
+ 966:	0a 94       	dec	r0
+ 968:	e2 f7       	brpl	.-8      	; 0x962 <_ZN14HardwareSerial5writeEh+0x5c>
+ 96a:	28 2b       	or	r18, r24
+ 96c:	20 83       	st	Z, r18
+  // clear the TXC bit -- "can be cleared by writing a one to its bit location"
+  transmitting = true;
+ 96e:	81 e0       	ldi	r24, 0x01	; 1
+ 970:	89 a3       	std	Y+33, r24	; 0x21
+  sbi(*_ucsra, TXC0);
+ 972:	ec 89       	ldd	r30, Y+20	; 0x14
+ 974:	fd 89       	ldd	r31, Y+21	; 0x15
+ 976:	80 81       	ld	r24, Z
+ 978:	80 64       	ori	r24, 0x40	; 64
+ 97a:	80 83       	st	Z, r24
+  
+  return 1;
+}
+ 97c:	81 e0       	ldi	r24, 0x01	; 1
+ 97e:	90 e0       	ldi	r25, 0x00	; 0
+ 980:	df 91       	pop	r29
+ 982:	cf 91       	pop	r28
+ 984:	08 95       	ret
+
+00000986 <_GLOBAL__I_rx_buffer>:
+    size_t printNumber(unsigned long, uint8_t);
+    size_t printFloat(double, uint8_t);
+  protected:
+    void setWriteError(int err = 1) { write_error = err; }
+  public:
+    Print() : write_error(0) {}
+ 986:	10 92 04 02 	sts	0x0204, r1
+ 98a:	10 92 03 02 	sts	0x0203, r1
+    virtual int available() = 0;
+    virtual int read() = 0;
+    virtual int peek() = 0;
+    virtual void flush() = 0;
+
+    Stream() {_timeout=1000;}
+ 98e:	88 ee       	ldi	r24, 0xE8	; 232
+ 990:	93 e0       	ldi	r25, 0x03	; 3
+ 992:	a0 e0       	ldi	r26, 0x00	; 0
+ 994:	b0 e0       	ldi	r27, 0x00	; 0
+ 996:	80 93 05 02 	sts	0x0205, r24
+ 99a:	90 93 06 02 	sts	0x0206, r25
+ 99e:	a0 93 07 02 	sts	0x0207, r26
+ 9a2:	b0 93 08 02 	sts	0x0208, r27
+
+HardwareSerial::HardwareSerial(ring_buffer *rx_buffer, ring_buffer *tx_buffer,
+  volatile uint8_t *ubrrh, volatile uint8_t *ubrrl,
+  volatile uint8_t *ucsra, volatile uint8_t *ucsrb,
+  volatile uint8_t *ucsrc, volatile uint8_t *udr,
+  uint8_t rxen, uint8_t txen, uint8_t rxcie, uint8_t udrie, uint8_t u2x)
+ 9a6:	8a e0       	ldi	r24, 0x0A	; 10
+ 9a8:	91 e0       	ldi	r25, 0x01	; 1
+ 9aa:	90 93 02 02 	sts	0x0202, r25
+ 9ae:	80 93 01 02 	sts	0x0201, r24
+{
+  _rx_buffer = rx_buffer;
+ 9b2:	89 e7       	ldi	r24, 0x79	; 121
+ 9b4:	91 e0       	ldi	r25, 0x01	; 1
+ 9b6:	90 93 0e 02 	sts	0x020E, r25
+ 9ba:	80 93 0d 02 	sts	0x020D, r24
+  _tx_buffer = tx_buffer;
+ 9be:	8d eb       	ldi	r24, 0xBD	; 189
+ 9c0:	91 e0       	ldi	r25, 0x01	; 1
+ 9c2:	90 93 10 02 	sts	0x0210, r25
+ 9c6:	80 93 0f 02 	sts	0x020F, r24
+  _ubrrh = ubrrh;
+ 9ca:	85 ec       	ldi	r24, 0xC5	; 197
+ 9cc:	90 e0       	ldi	r25, 0x00	; 0
+ 9ce:	90 93 12 02 	sts	0x0212, r25
+ 9d2:	80 93 11 02 	sts	0x0211, r24
+  _ubrrl = ubrrl;
+ 9d6:	84 ec       	ldi	r24, 0xC4	; 196
+ 9d8:	90 e0       	ldi	r25, 0x00	; 0
+ 9da:	90 93 14 02 	sts	0x0214, r25
+ 9de:	80 93 13 02 	sts	0x0213, r24
+  _ucsra = ucsra;
+ 9e2:	80 ec       	ldi	r24, 0xC0	; 192
+ 9e4:	90 e0       	ldi	r25, 0x00	; 0
+ 9e6:	90 93 16 02 	sts	0x0216, r25
+ 9ea:	80 93 15 02 	sts	0x0215, r24
+  _ucsrb = ucsrb;
+ 9ee:	81 ec       	ldi	r24, 0xC1	; 193
+ 9f0:	90 e0       	ldi	r25, 0x00	; 0
+ 9f2:	90 93 18 02 	sts	0x0218, r25
+ 9f6:	80 93 17 02 	sts	0x0217, r24
+  _ucsrc = ucsrc;
+ 9fa:	82 ec       	ldi	r24, 0xC2	; 194
+ 9fc:	90 e0       	ldi	r25, 0x00	; 0
+ 9fe:	90 93 1a 02 	sts	0x021A, r25
+ a02:	80 93 19 02 	sts	0x0219, r24
+  _udr = udr;
+ a06:	86 ec       	ldi	r24, 0xC6	; 198
+ a08:	90 e0       	ldi	r25, 0x00	; 0
+ a0a:	90 93 1c 02 	sts	0x021C, r25
+ a0e:	80 93 1b 02 	sts	0x021B, r24
+  _rxen = rxen;
+ a12:	84 e0       	ldi	r24, 0x04	; 4
+ a14:	80 93 1d 02 	sts	0x021D, r24
+  _txen = txen;
+ a18:	83 e0       	ldi	r24, 0x03	; 3
+ a1a:	80 93 1e 02 	sts	0x021E, r24
+  _rxcie = rxcie;
+ a1e:	87 e0       	ldi	r24, 0x07	; 7
+ a20:	80 93 1f 02 	sts	0x021F, r24
+  _udrie = udrie;
+ a24:	85 e0       	ldi	r24, 0x05	; 5
+ a26:	80 93 20 02 	sts	0x0220, r24
+  _u2x = u2x;
+ a2a:	81 e0       	ldi	r24, 0x01	; 1
+ a2c:	80 93 21 02 	sts	0x0221, r24
+// Preinstantiate Objects //////////////////////////////////////////////////////
+
+#if defined(UBRRH) && defined(UBRRL)
+  HardwareSerial Serial(&rx_buffer, &tx_buffer, &UBRRH, &UBRRL, &UCSRA, &UCSRB, &UCSRC, &UDR, RXEN, TXEN, RXCIE, UDRIE, U2X);
+#elif defined(UBRR0H) && defined(UBRR0L)
+  HardwareSerial Serial(&rx_buffer, &tx_buffer, &UBRR0H, &UBRR0L, &UCSR0A, &UCSR0B, &UCSR0C, &UDR0, RXEN0, TXEN0, RXCIE0, UDRIE0, U2X0);
+ a30:	08 95       	ret
+
+00000a32 <_ZN5Print5writeEPKhj>:
+#include "Print.h"
+
+// Public Methods //////////////////////////////////////////////////////////////
+
+/* default implementation: may be overridden */
+size_t Print::write(const uint8_t *buffer, size_t size)
+ a32:	cf 92       	push	r12
+ a34:	df 92       	push	r13
+ a36:	ef 92       	push	r14
+ a38:	ff 92       	push	r15
+ a3a:	0f 93       	push	r16
+ a3c:	1f 93       	push	r17
+ a3e:	cf 93       	push	r28
+ a40:	df 93       	push	r29
+ a42:	7c 01       	movw	r14, r24
+ a44:	6b 01       	movw	r12, r22
+ a46:	8a 01       	movw	r16, r20
+ a48:	c0 e0       	ldi	r28, 0x00	; 0
+ a4a:	d0 e0       	ldi	r29, 0x00	; 0
+ a4c:	0f c0       	rjmp	.+30     	; 0xa6c <_ZN5Print5writeEPKhj+0x3a>
+{
+  size_t n = 0;
+  while (size--) {
+    n += write(*buffer++);
+ a4e:	d6 01       	movw	r26, r12
+ a50:	6d 91       	ld	r22, X+
+ a52:	6d 01       	movw	r12, r26
+ a54:	d7 01       	movw	r26, r14
+ a56:	ed 91       	ld	r30, X+
+ a58:	fc 91       	ld	r31, X
+ a5a:	01 90       	ld	r0, Z+
+ a5c:	f0 81       	ld	r31, Z
+ a5e:	e0 2d       	mov	r30, r0
+ a60:	c7 01       	movw	r24, r14
+ a62:	09 95       	icall
+ a64:	c8 0f       	add	r28, r24
+ a66:	d9 1f       	adc	r29, r25
+ a68:	01 50       	subi	r16, 0x01	; 1
+ a6a:	10 40       	sbci	r17, 0x00	; 0
+
+/* default implementation: may be overridden */
+size_t Print::write(const uint8_t *buffer, size_t size)
+{
+  size_t n = 0;
+  while (size--) {
+ a6c:	01 15       	cp	r16, r1
+ a6e:	11 05       	cpc	r17, r1
+ a70:	71 f7       	brne	.-36     	; 0xa4e <_ZN5Print5writeEPKhj+0x1c>
+    n += write(*buffer++);
+  }
+  return n;
+}
+ a72:	ce 01       	movw	r24, r28
+ a74:	df 91       	pop	r29
+ a76:	cf 91       	pop	r28
+ a78:	1f 91       	pop	r17
+ a7a:	0f 91       	pop	r16
+ a7c:	ff 90       	pop	r15
+ a7e:	ef 90       	pop	r14
+ a80:	df 90       	pop	r13
+ a82:	cf 90       	pop	r12
+ a84:	08 95       	ret
+
+00000a86 <_ZN5Print7printlnEv>:
+size_t Print::print(const Printable& x)
+{
+  return x.printTo(*this);
+}
+
+size_t Print::println(void)
+ a86:	ef 92       	push	r14
+ a88:	ff 92       	push	r15
+ a8a:	0f 93       	push	r16
+ a8c:	1f 93       	push	r17
+ a8e:	8c 01       	movw	r16, r24
+  return write(str);
+}
+
+size_t Print::print(char c)
+{
+  return write(c);
+ a90:	dc 01       	movw	r26, r24
+ a92:	ed 91       	ld	r30, X+
+ a94:	fc 91       	ld	r31, X
+ a96:	01 90       	ld	r0, Z+
+ a98:	f0 81       	ld	r31, Z
+ a9a:	e0 2d       	mov	r30, r0
+ a9c:	6d e0       	ldi	r22, 0x0D	; 13
+ a9e:	09 95       	icall
+ aa0:	7c 01       	movw	r14, r24
+size_t Print::println(void)
+{
+  size_t n = print('\r');
+  n += print('\n');
+  return n;
+}
+ aa2:	d8 01       	movw	r26, r16
+ aa4:	ed 91       	ld	r30, X+
+ aa6:	fc 91       	ld	r31, X
+ aa8:	01 90       	ld	r0, Z+
+ aaa:	f0 81       	ld	r31, Z
+ aac:	e0 2d       	mov	r30, r0
+ aae:	c8 01       	movw	r24, r16
+ ab0:	6a e0       	ldi	r22, 0x0A	; 10
+ ab2:	09 95       	icall
+ ab4:	9c 01       	movw	r18, r24
+ ab6:	2e 0d       	add	r18, r14
+ ab8:	3f 1d       	adc	r19, r15
+ aba:	c9 01       	movw	r24, r18
+ abc:	1f 91       	pop	r17
+ abe:	0f 91       	pop	r16
+ ac0:	ff 90       	pop	r15
+ ac2:	ef 90       	pop	r14
+ ac4:	08 95       	ret
+
+00000ac6 <_ZN5Print5writeEPKc>:
+  
+    int getWriteError() { return write_error; }
+    void clearWriteError() { setWriteError(0); }
+  
+    virtual size_t write(uint8_t) = 0;
+    size_t write(const char *str) {
+ ac6:	cf 93       	push	r28
+ ac8:	df 93       	push	r29
+ aca:	ec 01       	movw	r28, r24
+      if (str == NULL) return 0;
+ acc:	61 15       	cp	r22, r1
+ ace:	71 05       	cpc	r23, r1
+ ad0:	19 f4       	brne	.+6      	; 0xad8 <_ZN5Print5writeEPKc+0x12>
+ ad2:	20 e0       	ldi	r18, 0x00	; 0
+ ad4:	30 e0       	ldi	r19, 0x00	; 0
+ ad6:	0f c0       	rjmp	.+30     	; 0xaf6 <_ZN5Print5writeEPKc+0x30>
+      return write((const uint8_t *)str, strlen(str));
+ ad8:	db 01       	movw	r26, r22
+ ada:	0d 90       	ld	r0, X+
+ adc:	00 20       	and	r0, r0
+ ade:	e9 f7       	brne	.-6      	; 0xada <_ZN5Print5writeEPKc+0x14>
+ ae0:	11 97       	sbiw	r26, 0x01	; 1
+ ae2:	a6 1b       	sub	r26, r22
+ ae4:	b7 0b       	sbc	r27, r23
+ ae6:	e8 81       	ld	r30, Y
+ ae8:	f9 81       	ldd	r31, Y+1	; 0x01
+ aea:	02 80       	ldd	r0, Z+2	; 0x02
+ aec:	f3 81       	ldd	r31, Z+3	; 0x03
+ aee:	e0 2d       	mov	r30, r0
+ af0:	ad 01       	movw	r20, r26
+ af2:	09 95       	icall
+ af4:	9c 01       	movw	r18, r24
+    }
+ af6:	c9 01       	movw	r24, r18
+ af8:	df 91       	pop	r29
+ afa:	cf 91       	pop	r28
+ afc:	08 95       	ret
+
+00000afe <_ZN5Print11printNumberEmh>:
+  return n;
+}
+
+// Private Methods /////////////////////////////////////////////////////////////
+
+size_t Print::printNumber(unsigned long n, uint8_t base) {
+ afe:	4f 92       	push	r4
+ b00:	5f 92       	push	r5
+ b02:	7f 92       	push	r7
+ b04:	8f 92       	push	r8
+ b06:	9f 92       	push	r9
+ b08:	af 92       	push	r10
+ b0a:	bf 92       	push	r11
+ b0c:	cf 92       	push	r12
+ b0e:	df 92       	push	r13
+ b10:	ef 92       	push	r14
+ b12:	ff 92       	push	r15
+ b14:	0f 93       	push	r16
+ b16:	1f 93       	push	r17
+ b18:	df 93       	push	r29
+ b1a:	cf 93       	push	r28
+ b1c:	cd b7       	in	r28, 0x3d	; 61
+ b1e:	de b7       	in	r29, 0x3e	; 62
+ b20:	a1 97       	sbiw	r28, 0x21	; 33
+ b22:	0f b6       	in	r0, 0x3f	; 63
+ b24:	f8 94       	cli
+ b26:	de bf       	out	0x3e, r29	; 62
+ b28:	0f be       	out	0x3f, r0	; 63
+ b2a:	cd bf       	out	0x3d, r28	; 61
+ b2c:	2c 01       	movw	r4, r24
+ b2e:	74 2e       	mov	r7, r20
+ b30:	cb 01       	movw	r24, r22
+  char *str = &buf[sizeof(buf) - 1];
+
+  *str = '\0';
+
+  // prevent crash if called with base == 1
+  if (base < 2) base = 10;
+ b32:	22 30       	cpi	r18, 0x02	; 2
+ b34:	08 f4       	brcc	.+2      	; 0xb38 <_ZN5Print11printNumberEmh+0x3a>
+ b36:	2a e0       	ldi	r18, 0x0A	; 10
+
+size_t Print::printNumber(unsigned long n, uint8_t base) {
+  char buf[8 * sizeof(long) + 1]; // Assumes 8-bit chars plus zero byte.
+  char *str = &buf[sizeof(buf) - 1];
+
+  *str = '\0';
+ b38:	19 a2       	std	Y+33, r1	; 0x21
+ b3a:	31 e2       	ldi	r19, 0x21	; 33
+ b3c:	c3 2e       	mov	r12, r19
+ b3e:	d1 2c       	mov	r13, r1
+ b40:	cc 0e       	add	r12, r28
+ b42:	dd 1e       	adc	r13, r29
+  // prevent crash if called with base == 1
+  if (base < 2) base = 10;
+
+  do {
+    unsigned long m = n;
+    n /= base;
+ b44:	82 2e       	mov	r8, r18
+ b46:	99 24       	eor	r9, r9
+ b48:	aa 24       	eor	r10, r10
+ b4a:	bb 24       	eor	r11, r11
+ b4c:	67 2d       	mov	r22, r7
+ b4e:	75 2f       	mov	r23, r21
+ b50:	a5 01       	movw	r20, r10
+ b52:	94 01       	movw	r18, r8
+ b54:	0e 94 07 07 	call	0xe0e	; 0xe0e <__udivmodsi4>
+ b58:	79 01       	movw	r14, r18
+ b5a:	8a 01       	movw	r16, r20
+    char c = m - base * n;
+ b5c:	c8 01       	movw	r24, r16
+ b5e:	b7 01       	movw	r22, r14
+ b60:	a5 01       	movw	r20, r10
+ b62:	94 01       	movw	r18, r8
+ b64:	0e 94 e8 06 	call	0xdd0	; 0xdd0 <__mulsi3>
+ b68:	47 2d       	mov	r20, r7
+ b6a:	46 1b       	sub	r20, r22
+    *--str = c < 10 ? c + '0' : c + 'A' - 10;
+ b6c:	08 94       	sec
+ b6e:	c1 08       	sbc	r12, r1
+ b70:	d1 08       	sbc	r13, r1
+ b72:	4a 30       	cpi	r20, 0x0A	; 10
+ b74:	14 f4       	brge	.+4      	; 0xb7a <_ZN5Print11printNumberEmh+0x7c>
+ b76:	40 5d       	subi	r20, 0xD0	; 208
+ b78:	01 c0       	rjmp	.+2      	; 0xb7c <_ZN5Print11printNumberEmh+0x7e>
+ b7a:	49 5c       	subi	r20, 0xC9	; 201
+ b7c:	f6 01       	movw	r30, r12
+ b7e:	40 83       	st	Z, r20
+  *str = '\0';
+
+  // prevent crash if called with base == 1
+  if (base < 2) base = 10;
+
+  do {
+ b80:	e1 14       	cp	r14, r1
+ b82:	f1 04       	cpc	r15, r1
+ b84:	01 05       	cpc	r16, r1
+ b86:	11 05       	cpc	r17, r1
+ b88:	21 f0       	breq	.+8      	; 0xb92 <_ZN5Print11printNumberEmh+0x94>
+ b8a:	7e 2c       	mov	r7, r14
+ b8c:	5f 2d       	mov	r21, r15
+ b8e:	c8 01       	movw	r24, r16
+ b90:	dd cf       	rjmp	.-70     	; 0xb4c <_ZN5Print11printNumberEmh+0x4e>
+    n /= base;
+    char c = m - base * n;
+    *--str = c < 10 ? c + '0' : c + 'A' - 10;
+  } while(n);
+
+  return write(str);
+ b92:	c2 01       	movw	r24, r4
+ b94:	b6 01       	movw	r22, r12
+ b96:	0e 94 63 05 	call	0xac6	; 0xac6 <_ZN5Print5writeEPKc>
+}
+ b9a:	a1 96       	adiw	r28, 0x21	; 33
+ b9c:	0f b6       	in	r0, 0x3f	; 63
+ b9e:	f8 94       	cli
+ ba0:	de bf       	out	0x3e, r29	; 62
+ ba2:	0f be       	out	0x3f, r0	; 63
+ ba4:	cd bf       	out	0x3d, r28	; 61
+ ba6:	cf 91       	pop	r28
+ ba8:	df 91       	pop	r29
+ baa:	1f 91       	pop	r17
+ bac:	0f 91       	pop	r16
+ bae:	ff 90       	pop	r15
+ bb0:	ef 90       	pop	r14
+ bb2:	df 90       	pop	r13
+ bb4:	cf 90       	pop	r12
+ bb6:	bf 90       	pop	r11
+ bb8:	af 90       	pop	r10
+ bba:	9f 90       	pop	r9
+ bbc:	8f 90       	pop	r8
+ bbe:	7f 90       	pop	r7
+ bc0:	5f 90       	pop	r5
+ bc2:	4f 90       	pop	r4
+ bc4:	08 95       	ret
+
+00000bc6 <_ZN5Print5printEmi>:
+  } else {
+    return printNumber(n, base);
+  }
+}
+
+size_t Print::print(unsigned long n, int base)
+ bc6:	dc 01       	movw	r26, r24
+{
+  if (base == 0) return write(n);
+ bc8:	21 15       	cp	r18, r1
+ bca:	31 05       	cpc	r19, r1
+ bcc:	41 f4       	brne	.+16     	; 0xbde <_ZN5Print5printEmi+0x18>
+ bce:	ed 91       	ld	r30, X+
+ bd0:	fc 91       	ld	r31, X
+ bd2:	01 90       	ld	r0, Z+
+ bd4:	f0 81       	ld	r31, Z
+ bd6:	e0 2d       	mov	r30, r0
+ bd8:	64 2f       	mov	r22, r20
+ bda:	09 95       	icall
+ bdc:	08 95       	ret
+  else return printNumber(n, base);
+ bde:	0e 94 7f 05 	call	0xafe	; 0xafe <_ZN5Print11printNumberEmh>
+}
+ be2:	08 95       	ret
+
+00000be4 <_ZN5Print5printEji>:
+size_t Print::print(int n, int base)
+{
+  return print((long) n, base);
+}
+
+size_t Print::print(unsigned int n, int base)
+ be4:	ef 92       	push	r14
+ be6:	ff 92       	push	r15
+ be8:	0f 93       	push	r16
+ bea:	1f 93       	push	r17
+ bec:	9a 01       	movw	r18, r20
+{
+  return print((unsigned long) n, base);
+ bee:	7b 01       	movw	r14, r22
+ bf0:	00 e0       	ldi	r16, 0x00	; 0
+ bf2:	10 e0       	ldi	r17, 0x00	; 0
+ bf4:	b8 01       	movw	r22, r16
+ bf6:	a7 01       	movw	r20, r14
+ bf8:	0e 94 e3 05 	call	0xbc6	; 0xbc6 <_ZN5Print5printEmi>
+}
+ bfc:	1f 91       	pop	r17
+ bfe:	0f 91       	pop	r16
+ c00:	ff 90       	pop	r15
+ c02:	ef 90       	pop	r14
+ c04:	08 95       	ret
+
+00000c06 <_ZN5Print5printEhi>:
+size_t Print::print(char c)
+{
+  return write(c);
+}
+
+size_t Print::print(unsigned char b, int base)
+ c06:	ef 92       	push	r14
+ c08:	ff 92       	push	r15
+ c0a:	0f 93       	push	r16
+ c0c:	1f 93       	push	r17
+ c0e:	9a 01       	movw	r18, r20
+{
+  return print((unsigned long) b, base);
+ c10:	e6 2e       	mov	r14, r22
+ c12:	ff 24       	eor	r15, r15
+ c14:	00 e0       	ldi	r16, 0x00	; 0
+ c16:	10 e0       	ldi	r17, 0x00	; 0
+ c18:	b8 01       	movw	r22, r16
+ c1a:	a7 01       	movw	r20, r14
+ c1c:	0e 94 e3 05 	call	0xbc6	; 0xbc6 <_ZN5Print5printEmi>
+}
+ c20:	1f 91       	pop	r17
+ c22:	0f 91       	pop	r16
+ c24:	ff 90       	pop	r15
+ c26:	ef 90       	pop	r14
+ c28:	08 95       	ret
+
+00000c2a <_ZN5Print5printEPKc>:
+  return n;
+}
+
+size_t Print::print(const char str[])
+{
+  return write(str);
+ c2a:	0e 94 63 05 	call	0xac6	; 0xac6 <_ZN5Print5writeEPKc>
+}
+ c2e:	08 95       	ret
+
+00000c30 <main>:
+#include <Arduino.h>
+
+int main(void)
+ c30:	cf 93       	push	r28
+ c32:	df 93       	push	r29
+{
+	init();
+ c34:	0e 94 ad 06 	call	0xd5a	; 0xd5a <init>
+
+#if defined(USBCON)
+	USBDevice.attach();
+#endif
+	
+	setup();
+ c38:	0e 94 cd 02 	call	0x59a	; 0x59a <setup>
+    
+	for (;;) {
+		loop();
+		if (serialEventRun) serialEventRun();
+ c3c:	c4 e4       	ldi	r28, 0x44	; 68
+ c3e:	d3 e0       	ldi	r29, 0x03	; 3
+#endif
+	
+	setup();
+    
+	for (;;) {
+		loop();
+ c40:	0e 94 6f 02 	call	0x4de	; 0x4de <loop>
+		if (serialEventRun) serialEventRun();
+ c44:	20 97       	sbiw	r28, 0x00	; 0
+ c46:	e1 f3       	breq	.-8      	; 0xc40 <main+0x10>
+ c48:	0e 94 44 03 	call	0x688	; 0x688 <_Z14serialEventRunv>
+ c4c:	f9 cf       	rjmp	.-14     	; 0xc40 <main+0x10>
+
+00000c4e <__vector_16>:
+#if defined(__AVR_ATtiny24__) || defined(__AVR_ATtiny44__) || defined(__AVR_ATtiny84__)
+SIGNAL(TIM0_OVF_vect)
+#else
+SIGNAL(TIMER0_OVF_vect)
+#endif
+{
+ c4e:	1f 92       	push	r1
+ c50:	0f 92       	push	r0
+ c52:	0f b6       	in	r0, 0x3f	; 63
+ c54:	0f 92       	push	r0
+ c56:	11 24       	eor	r1, r1
+ c58:	2f 93       	push	r18
+ c5a:	3f 93       	push	r19
+ c5c:	8f 93       	push	r24
+ c5e:	9f 93       	push	r25
+ c60:	af 93       	push	r26
+ c62:	bf 93       	push	r27
+	// copy these to local variables so they can be stored in registers
+	// (volatile variables must be read from memory on every access)
+	unsigned long m = timer0_millis;
+ c64:	80 91 27 02 	lds	r24, 0x0227
+ c68:	90 91 28 02 	lds	r25, 0x0228
+ c6c:	a0 91 29 02 	lds	r26, 0x0229
+ c70:	b0 91 2a 02 	lds	r27, 0x022A
+	unsigned char f = timer0_fract;
+ c74:	30 91 2b 02 	lds	r19, 0x022B
+
+	m += MILLIS_INC;
+ c78:	01 96       	adiw	r24, 0x01	; 1
+ c7a:	a1 1d       	adc	r26, r1
+ c7c:	b1 1d       	adc	r27, r1
+	f += FRACT_INC;
+ c7e:	23 2f       	mov	r18, r19
+ c80:	2d 5f       	subi	r18, 0xFD	; 253
+	if (f >= FRACT_MAX) {
+ c82:	2d 37       	cpi	r18, 0x7D	; 125
+ c84:	20 f0       	brcs	.+8      	; 0xc8e <__vector_16+0x40>
+		f -= FRACT_MAX;
+ c86:	2d 57       	subi	r18, 0x7D	; 125
+		m += 1;
+ c88:	01 96       	adiw	r24, 0x01	; 1
+ c8a:	a1 1d       	adc	r26, r1
+ c8c:	b1 1d       	adc	r27, r1
+	}
+
+	timer0_fract = f;
+ c8e:	20 93 2b 02 	sts	0x022B, r18
+	timer0_millis = m;
+ c92:	80 93 27 02 	sts	0x0227, r24
+ c96:	90 93 28 02 	sts	0x0228, r25
+ c9a:	a0 93 29 02 	sts	0x0229, r26
+ c9e:	b0 93 2a 02 	sts	0x022A, r27
+	timer0_overflow_count++;
+ ca2:	80 91 23 02 	lds	r24, 0x0223
+ ca6:	90 91 24 02 	lds	r25, 0x0224
+ caa:	a0 91 25 02 	lds	r26, 0x0225
+ cae:	b0 91 26 02 	lds	r27, 0x0226
+ cb2:	01 96       	adiw	r24, 0x01	; 1
+ cb4:	a1 1d       	adc	r26, r1
+ cb6:	b1 1d       	adc	r27, r1
+ cb8:	80 93 23 02 	sts	0x0223, r24
+ cbc:	90 93 24 02 	sts	0x0224, r25
+ cc0:	a0 93 25 02 	sts	0x0225, r26
+ cc4:	b0 93 26 02 	sts	0x0226, r27
+}
+ cc8:	bf 91       	pop	r27
+ cca:	af 91       	pop	r26
+ ccc:	9f 91       	pop	r25
+ cce:	8f 91       	pop	r24
+ cd0:	3f 91       	pop	r19
+ cd2:	2f 91       	pop	r18
+ cd4:	0f 90       	pop	r0
+ cd6:	0f be       	out	0x3f, r0	; 63
+ cd8:	0f 90       	pop	r0
+ cda:	1f 90       	pop	r1
+ cdc:	18 95       	reti
+
+00000cde <millis>:
+
+unsigned long millis()
+{
+	unsigned long m;
+	uint8_t oldSREG = SREG;
+ cde:	8f b7       	in	r24, 0x3f	; 63
+
+	// disable interrupts while we read timer0_millis or we might get an
+	// inconsistent value (e.g. in the middle of a write to timer0_millis)
+	cli();
+ ce0:	f8 94       	cli
+	m = timer0_millis;
+ ce2:	20 91 27 02 	lds	r18, 0x0227
+ ce6:	30 91 28 02 	lds	r19, 0x0228
+ cea:	40 91 29 02 	lds	r20, 0x0229
+ cee:	50 91 2a 02 	lds	r21, 0x022A
+	SREG = oldSREG;
+ cf2:	8f bf       	out	0x3f, r24	; 63
+
+	return m;
+}
+ cf4:	b9 01       	movw	r22, r18
+ cf6:	ca 01       	movw	r24, r20
+ cf8:	08 95       	ret
+
+00000cfa <micros>:
+
+unsigned long micros() {
+	unsigned long m;
+	uint8_t oldSREG = SREG, t;
+ cfa:	9f b7       	in	r25, 0x3f	; 63
+	
+	cli();
+ cfc:	f8 94       	cli
+	m = timer0_overflow_count;
+ cfe:	20 91 23 02 	lds	r18, 0x0223
+ d02:	30 91 24 02 	lds	r19, 0x0224
+ d06:	40 91 25 02 	lds	r20, 0x0225
+ d0a:	50 91 26 02 	lds	r21, 0x0226
+#if defined(TCNT0)
+	t = TCNT0;
+ d0e:	86 b5       	in	r24, 0x26	; 38
+	#error TIMER 0 not defined
+#endif
+
+  
+#ifdef TIFR0
+	if ((TIFR0 & _BV(TOV0)) && (t < 255))
+ d10:	a8 9b       	sbis	0x15, 0	; 21
+ d12:	06 c0       	rjmp	.+12     	; 0xd20 <micros+0x26>
+ d14:	8f 3f       	cpi	r24, 0xFF	; 255
+ d16:	21 f0       	breq	.+8      	; 0xd20 <micros+0x26>
+		m++;
+ d18:	2f 5f       	subi	r18, 0xFF	; 255
+ d1a:	3f 4f       	sbci	r19, 0xFF	; 255
+ d1c:	4f 4f       	sbci	r20, 0xFF	; 255
+ d1e:	5f 4f       	sbci	r21, 0xFF	; 255
+#else
+	if ((TIFR & _BV(TOV0)) && (t < 255))
+		m++;
+#endif
+
+	SREG = oldSREG;
+ d20:	9f bf       	out	0x3f, r25	; 63
+ d22:	54 2f       	mov	r21, r20
+ d24:	43 2f       	mov	r20, r19
+ d26:	32 2f       	mov	r19, r18
+ d28:	22 27       	eor	r18, r18
+ d2a:	28 0f       	add	r18, r24
+ d2c:	31 1d       	adc	r19, r1
+ d2e:	41 1d       	adc	r20, r1
+ d30:	51 1d       	adc	r21, r1
+ d32:	82 e0       	ldi	r24, 0x02	; 2
+ d34:	22 0f       	add	r18, r18
+ d36:	33 1f       	adc	r19, r19
+ d38:	44 1f       	adc	r20, r20
+ d3a:	55 1f       	adc	r21, r21
+ d3c:	8a 95       	dec	r24
+ d3e:	d1 f7       	brne	.-12     	; 0xd34 <micros+0x3a>
+	
+	return ((m << 8) + t) * (64 / clockCyclesPerMicrosecond());
+}
+ d40:	b9 01       	movw	r22, r18
+ d42:	ca 01       	movw	r24, r20
+ d44:	08 95       	ret
+
+00000d46 <delayMicroseconds>:
+#elif F_CPU >= 16000000L
+	// for the 16 MHz clock on most Arduino boards
+
+	// for a one-microsecond delay, simply return.  the overhead
+	// of the function call yields a delay of approximately 1 1/8 us.
+	if (--us == 0)
+ d46:	01 97       	sbiw	r24, 0x01	; 1
+ d48:	39 f0       	breq	.+14     	; 0xd58 <delayMicroseconds+0x12>
+		return;
+
+	// the following loop takes a quarter of a microsecond (4 cycles)
+	// per iteration, so execute it four times for each microsecond of
+	// delay requested.
+	us <<= 2;
+ d4a:	88 0f       	add	r24, r24
+ d4c:	99 1f       	adc	r25, r25
+ d4e:	88 0f       	add	r24, r24
+ d50:	99 1f       	adc	r25, r25
+
+	// account for the time taken in the preceeding commands.
+	us -= 2;
+ d52:	02 97       	sbiw	r24, 0x02	; 2
+	// we can't subtract any more than this or we'd overflow w/ small delays.
+	us--;
+#endif
+
+	// busy wait
+	__asm__ __volatile__ (
+ d54:	01 97       	sbiw	r24, 0x01	; 1
+ d56:	f1 f7       	brne	.-4      	; 0xd54 <delayMicroseconds+0xe>
+ d58:	08 95       	ret
+
+00000d5a <init>:
+
+void init()
+{
+	// this needs to be called before setup() or some functions won't
+	// work there
+	sei();
+ d5a:	78 94       	sei
+	
+	// on the ATmega168, timer 0 is also used for fast hardware pwm
+	// (using phase-correct PWM would mean that timer 0 overflowed half as often
+	// resulting in different millis() behavior on the ATmega8 and ATmega168)
+#if defined(TCCR0A) && defined(WGM01)
+	sbi(TCCR0A, WGM01);
+ d5c:	84 b5       	in	r24, 0x24	; 36
+ d5e:	82 60       	ori	r24, 0x02	; 2
+ d60:	84 bd       	out	0x24, r24	; 36
+	sbi(TCCR0A, WGM00);
+ d62:	84 b5       	in	r24, 0x24	; 36
+ d64:	81 60       	ori	r24, 0x01	; 1
+ d66:	84 bd       	out	0x24, r24	; 36
+	// this combination is for the standard atmega8
+	sbi(TCCR0, CS01);
+	sbi(TCCR0, CS00);
+#elif defined(TCCR0B) && defined(CS01) && defined(CS00)
+	// this combination is for the standard 168/328/1280/2560
+	sbi(TCCR0B, CS01);
+ d68:	85 b5       	in	r24, 0x25	; 37
+ d6a:	82 60       	ori	r24, 0x02	; 2
+ d6c:	85 bd       	out	0x25, r24	; 37
+	sbi(TCCR0B, CS00);
+ d6e:	85 b5       	in	r24, 0x25	; 37
+ d70:	81 60       	ori	r24, 0x01	; 1
+ d72:	85 bd       	out	0x25, r24	; 37
+
+	// enable timer 0 overflow interrupt
+#if defined(TIMSK) && defined(TOIE0)
+	sbi(TIMSK, TOIE0);
+#elif defined(TIMSK0) && defined(TOIE0)
+	sbi(TIMSK0, TOIE0);
+ d74:	ee e6       	ldi	r30, 0x6E	; 110
+ d76:	f0 e0       	ldi	r31, 0x00	; 0
+ d78:	80 81       	ld	r24, Z
+ d7a:	81 60       	ori	r24, 0x01	; 1
+ d7c:	80 83       	st	Z, r24
+	// this is better for motors as it ensures an even waveform
+	// note, however, that fast pwm mode can achieve a frequency of up
+	// 8 MHz (with a 16 MHz clock) at 50% duty cycle
+
+#if defined(TCCR1B) && defined(CS11) && defined(CS10)
+	TCCR1B = 0;
+ d7e:	e1 e8       	ldi	r30, 0x81	; 129
+ d80:	f0 e0       	ldi	r31, 0x00	; 0
+ d82:	10 82       	st	Z, r1
+
+	// set timer 1 prescale factor to 64
+	sbi(TCCR1B, CS11);
+ d84:	80 81       	ld	r24, Z
+ d86:	82 60       	ori	r24, 0x02	; 2
+ d88:	80 83       	st	Z, r24
+#if F_CPU >= 8000000L
+	sbi(TCCR1B, CS10);
+ d8a:	80 81       	ld	r24, Z
+ d8c:	81 60       	ori	r24, 0x01	; 1
+ d8e:	80 83       	st	Z, r24
+	sbi(TCCR1, CS10);
+#endif
+#endif
+	// put timer 1 in 8-bit phase correct pwm mode
+#if defined(TCCR1A) && defined(WGM10)
+	sbi(TCCR1A, WGM10);
+ d90:	e0 e8       	ldi	r30, 0x80	; 128
+ d92:	f0 e0       	ldi	r31, 0x00	; 0
+ d94:	80 81       	ld	r24, Z
+ d96:	81 60       	ori	r24, 0x01	; 1
+ d98:	80 83       	st	Z, r24
+
+	// set timer 2 prescale factor to 64
+#if defined(TCCR2) && defined(CS22)
+	sbi(TCCR2, CS22);
+#elif defined(TCCR2B) && defined(CS22)
+	sbi(TCCR2B, CS22);
+ d9a:	e1 eb       	ldi	r30, 0xB1	; 177
+ d9c:	f0 e0       	ldi	r31, 0x00	; 0
+ d9e:	80 81       	ld	r24, Z
+ da0:	84 60       	ori	r24, 0x04	; 4
+ da2:	80 83       	st	Z, r24
+
+	// configure timer 2 for phase correct pwm (8-bit)
+#if defined(TCCR2) && defined(WGM20)
+	sbi(TCCR2, WGM20);
+#elif defined(TCCR2A) && defined(WGM20)
+	sbi(TCCR2A, WGM20);
+ da4:	e0 eb       	ldi	r30, 0xB0	; 176
+ da6:	f0 e0       	ldi	r31, 0x00	; 0
+ da8:	80 81       	ld	r24, Z
+ daa:	81 60       	ori	r24, 0x01	; 1
+ dac:	80 83       	st	Z, r24
+#if defined(ADCSRA)
+	// set a2d prescale factor to 128
+	// 16 MHz / 128 = 125 KHz, inside the desired 50-200 KHz range.
+	// XXX: this will not work properly for other clock speeds, and
+	// this code should use F_CPU to determine the prescale factor.
+	sbi(ADCSRA, ADPS2);
+ dae:	ea e7       	ldi	r30, 0x7A	; 122
+ db0:	f0 e0       	ldi	r31, 0x00	; 0
+ db2:	80 81       	ld	r24, Z
+ db4:	84 60       	ori	r24, 0x04	; 4
+ db6:	80 83       	st	Z, r24
+	sbi(ADCSRA, ADPS1);
+ db8:	80 81       	ld	r24, Z
+ dba:	82 60       	ori	r24, 0x02	; 2
+ dbc:	80 83       	st	Z, r24
+	sbi(ADCSRA, ADPS0);
+ dbe:	80 81       	ld	r24, Z
+ dc0:	81 60       	ori	r24, 0x01	; 1
+ dc2:	80 83       	st	Z, r24
+
+	// enable a2d conversions
+	sbi(ADCSRA, ADEN);
+ dc4:	80 81       	ld	r24, Z
+ dc6:	80 68       	ori	r24, 0x80	; 128
+ dc8:	80 83       	st	Z, r24
+	// here so they can be used as normal digital i/o; they will be
+	// reconnected in Serial.begin()
+#if defined(UCSRB)
+	UCSRB = 0;
+#elif defined(UCSR0B)
+	UCSR0B = 0;
+ dca:	10 92 c1 00 	sts	0x00C1, r1
+#endif
+}
+ dce:	08 95       	ret
+
+00000dd0 <__mulsi3>:
+ dd0:	62 9f       	mul	r22, r18
+ dd2:	d0 01       	movw	r26, r0
+ dd4:	73 9f       	mul	r23, r19
+ dd6:	f0 01       	movw	r30, r0
+ dd8:	82 9f       	mul	r24, r18
+ dda:	e0 0d       	add	r30, r0
+ ddc:	f1 1d       	adc	r31, r1
+ dde:	64 9f       	mul	r22, r20
+ de0:	e0 0d       	add	r30, r0
+ de2:	f1 1d       	adc	r31, r1
+ de4:	92 9f       	mul	r25, r18
+ de6:	f0 0d       	add	r31, r0
+ de8:	83 9f       	mul	r24, r19
+ dea:	f0 0d       	add	r31, r0
+ dec:	74 9f       	mul	r23, r20
+ dee:	f0 0d       	add	r31, r0
+ df0:	65 9f       	mul	r22, r21
+ df2:	f0 0d       	add	r31, r0
+ df4:	99 27       	eor	r25, r25
+ df6:	72 9f       	mul	r23, r18
+ df8:	b0 0d       	add	r27, r0
+ dfa:	e1 1d       	adc	r30, r1
+ dfc:	f9 1f       	adc	r31, r25
+ dfe:	63 9f       	mul	r22, r19
+ e00:	b0 0d       	add	r27, r0
+ e02:	e1 1d       	adc	r30, r1
+ e04:	f9 1f       	adc	r31, r25
+ e06:	bd 01       	movw	r22, r26
+ e08:	cf 01       	movw	r24, r30
+ e0a:	11 24       	eor	r1, r1
+ e0c:	08 95       	ret
+
+00000e0e <__udivmodsi4>:
+ e0e:	a1 e2       	ldi	r26, 0x21	; 33
+ e10:	1a 2e       	mov	r1, r26
+ e12:	aa 1b       	sub	r26, r26
+ e14:	bb 1b       	sub	r27, r27
+ e16:	fd 01       	movw	r30, r26
+ e18:	0d c0       	rjmp	.+26     	; 0xe34 <__udivmodsi4_ep>
+
+00000e1a <__udivmodsi4_loop>:
+ e1a:	aa 1f       	adc	r26, r26
+ e1c:	bb 1f       	adc	r27, r27
+ e1e:	ee 1f       	adc	r30, r30
+ e20:	ff 1f       	adc	r31, r31
+ e22:	a2 17       	cp	r26, r18
+ e24:	b3 07       	cpc	r27, r19
+ e26:	e4 07       	cpc	r30, r20
+ e28:	f5 07       	cpc	r31, r21
+ e2a:	20 f0       	brcs	.+8      	; 0xe34 <__udivmodsi4_ep>
+ e2c:	a2 1b       	sub	r26, r18
+ e2e:	b3 0b       	sbc	r27, r19
+ e30:	e4 0b       	sbc	r30, r20
+ e32:	f5 0b       	sbc	r31, r21
+
+00000e34 <__udivmodsi4_ep>:
+ e34:	66 1f       	adc	r22, r22
+ e36:	77 1f       	adc	r23, r23
+ e38:	88 1f       	adc	r24, r24
+ e3a:	99 1f       	adc	r25, r25
+ e3c:	1a 94       	dec	r1
+ e3e:	69 f7       	brne	.-38     	; 0xe1a <__udivmodsi4_loop>
+ e40:	60 95       	com	r22
+ e42:	70 95       	com	r23
+ e44:	80 95       	com	r24
+ e46:	90 95       	com	r25
+ e48:	9b 01       	movw	r18, r22
+ e4a:	ac 01       	movw	r20, r24
+ e4c:	bd 01       	movw	r22, r26
+ e4e:	cf 01       	movw	r24, r30
+ e50:	08 95       	ret
+
+00000e52 <__tablejump2__>:
+ e52:	ee 0f       	add	r30, r30
+ e54:	ff 1f       	adc	r31, r31
+
+00000e56 <__tablejump__>:
+ e56:	05 90       	lpm	r0, Z+
+ e58:	f4 91       	lpm	r31, Z+
+ e5a:	e0 2d       	mov	r30, r0
+ e5c:	09 94       	ijmp
+
+00000e5e <_exit>:
+ e5e:	f8 94       	cli
+
+00000e60 <__stop_program>:
+ e60:	ff cf       	rjmp	.-2      	; 0xe60 <__stop_program>

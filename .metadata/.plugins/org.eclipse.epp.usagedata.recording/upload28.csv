@@ -1,0 +1,276 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378855980066
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856030477
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1378856030514
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856051983
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856184970
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1378856185013
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856187979
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856190036
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856233586
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856235031
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856336208
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856336699
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856364996
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378856367229
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856376825
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856376917
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378856391687
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856397062
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1378856410807
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856413867
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856436224
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378856449469
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856464560
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378856466658
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856467222
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856467320
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856469533
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378856471851
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856472128
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856472230
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378856476406
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856476656
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856478901
+closed,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856478902
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856479863
+closed,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856479863
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856480786
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856481918
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856482047
+closed,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856482047
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378856484461
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856490694
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856490778
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378856503002
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856503265
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856503348
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856509840
+closed,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856509841
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856518296
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1378856518391
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856521644
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378856527341
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856531792
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856531832
+closed,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856531832
+executed,command,,,"AUTOGEN:::org.eclipse.cdt.debug.ui.CEditor.BreakpointRulerActions/org.eclipse.cdt.debug.ui.CEditor.RulerTobbleBreakpointAction",1378856536336
+executed,command,,,"AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.cdt.internal.ui.text.correction.CSelectRulerAction",1378856547217
+executed,command,,,"AUTOGEN:::org.eclipse.cdt.debug.ui.CEditor.BreakpointRulerActions/org.eclipse.cdt.debug.ui.CEditor.RulerTobbleBreakpointAction",1378856548214
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378856556690
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856563065
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856565841
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856569039
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378856573449
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856590884
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856607381
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1378856607437
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856610781
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856627665
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1378856627741
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856631476
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856645103
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1378856645142
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856647302
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378856691198
+closed,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856691199
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856694287
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856694366
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378856717380
+closed,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856717380
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856726276
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856729186
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1378856729208
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1378856729208
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856754187
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856775263
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.newWizard",1378856775299
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856779869
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856779950
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378856782107
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856782335
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856782420
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378856782476
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856821174
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856824998
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856828166
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856878291
+activated,perspective,com.vectrace.MercurialEclipse,2.1.0.201304290948,"com.vectrace.MercurialEclipse.Perspective",1378856894303
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378856894341
+activated,view,com.vectrace.MercurialEclipse,2.1.0.201304290948,"com.vectrace.MercurialEclipse.repository.RepositoriesView",1378856896136
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856898301
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856974653
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856977088
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856979118
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378856984712
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857042090
+activated,perspective,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.CPerspective",1378857047112
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857047138
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378857049729
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1378857059514
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1378857064306
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857069774
+error,log,,,"trackuino does not have a hg root",1378857072500
+error,log,,,"trackuino does not have a hg root",1378857072511
+error,log,,,"trackuino does not have a hg root",1378857072522
+error,log,,,"trackuino does not have a hg root",1378857072532
+error,log,,,"trackuino does not have a hg root",1378857072543
+error,log,,,"trackuino does not have a hg root",1378857072555
+error,log,,,"trackuino does not have a hg root",1378857072565
+error,log,,,"trackuino does not have a hg root",1378857072576
+error,log,,,"trackuino does not have a hg root",1378857072586
+error,log,,,"trackuino does not have a hg root",1378857072597
+error,log,,,"trackuino does not have a hg root",1378857072608
+error,log,,,"trackuino does not have a hg root",1378857072619
+error,log,,,"trackuino does not have a hg root",1378857072630
+error,log,,,"trackuino does not have a hg root",1378857072641
+error,log,,,"trackuino does not have a hg root",1378857072652
+error,log,,,"trackuino does not have a hg root",1378857072663
+error,log,,,"trackuino does not have a hg root",1378857072674
+error,log,,,"trackuino does not have a hg root",1378857072686
+error,log,,,"trackuino does not have a hg root",1378857072697
+error,log,,,"trackuino does not have a hg root",1378857072709
+error,log,,,"trackuino does not have a hg root",1378857072720
+error,log,,,"trackuino does not have a hg root",1378857072731
+error,log,,,"trackuino does not have a hg root",1378857072742
+error,log,,,"trackuino does not have a hg root",1378857072753
+error,log,,,"trackuino does not have a hg root",1378857072767
+error,log,,,"trackuino does not have a hg root",1378857072782
+error,log,,,"trackuino does not have a hg root",1378857072793
+error,log,,,"trackuino does not have a hg root",1378857072805
+error,log,,,"trackuino does not have a hg root",1378857072816
+error,log,,,"trackuino does not have a hg root",1378857072827
+error,log,,,"trackuino does not have a hg root",1378857072838
+error,log,,,"trackuino does not have a hg root",1378857072848
+error,log,,,"trackuino does not have a hg root",1378857072858
+error,log,,,"trackuino does not have a hg root",1378857072869
+error,log,,,"trackuino does not have a hg root",1378857072881
+error,log,,,"Internal Error",1378857072992
+error,log,,,"Problems encountered while deleting resources.",1378857073000
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857076676
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1378857076697
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1378857076697
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857080313
+error,log,,,"Internal Error",1378857081494
+error,log,,,"Problems encountered while deleting resources.",1378857081502
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857085416
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1378857085436
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1378857085436
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857090419
+error,log,,,"Internal Error",1378857091708
+error,log,,,"Problems encountered while deleting resources.",1378857091714
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857095584
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1378857095604
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1378857095604
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857122681
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857122715
+closed,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857122715
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378857124568
+closed,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857124568
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857128549
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857128618
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857143833
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857201337
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378857204105
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857216879
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857224117
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.newWizard",1378857224171
+error,log,,,"No .hg in C:\\cygwin\\home\\chris\\workspaces\\arduino\\trackuino.firmware\\temp",1378857224741
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1378857242959
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857253547
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857254259
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1378857254263
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857259899
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857260006
+closed,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857261549
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378857268509
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857284103
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857284169
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378857298099
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857299118
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378857325354
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857330153
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857335099
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1378857357956
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1378857358318
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1378857358706
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1378857359086
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1378857359484
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1378857359850
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1378857360234
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1378857360631
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1378857360976
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1378857361417
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1378857361830
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1378857362263
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1378857362755
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857364873
+closed,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857364873
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378857377436
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857385084
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378857429479
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857429702
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857429765
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378857436715
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857436956
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857437021
+executed,command,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.edit.opendecl",1378857446420
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857446553
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857451550
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857451686
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857451737
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378857462613
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857466507
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857469183
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1378857469201
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1378857469202
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857479077
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857479109
+closed,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857479109
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857485612
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378857517379
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857517667
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857517736
+executed,command,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.edit.opendecl",1378857528174
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857528226
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857531880
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857532000
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857532049
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857540420
+closed,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857540420
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857541935
+closed,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857541936
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857548860
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857590161
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857602878
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1378857602938
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857605929
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1378857606695
+opened,view,org.eclipse.search,3.7.0.v20110928-1504,"org.eclipse.search.ui.views.SearchView",1378857608896
+activated,view,org.eclipse.search,3.7.0.v20110928-1504,"org.eclipse.search.ui.views.SearchView",1378857608942
+executed,command,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.search.findrefs",1378857609251
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857617060
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1378857622521
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1378857628744
+closed,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857630413
+closed,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857631418
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378857633378
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857637290
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857637352
+activated,view,org.eclipse.search,3.7.0.v20110928-1504,"org.eclipse.search.ui.views.SearchView",1378857647723
+executed,command,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.search.findrefs",1378857647747
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1378857650781
+no handler,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1378857651539
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857654653
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857662796
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1378857662850
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857670706
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378857673826
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857674053
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857674120
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857675253
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.findReplace",1378857675306
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1378857678556
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378857690010
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1378857690204
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1378857700608

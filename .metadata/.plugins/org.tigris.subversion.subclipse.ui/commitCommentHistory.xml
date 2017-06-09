@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommitComments>	<CommitComment>Final Changes</CommitComment>
+	<CommitComment>Code working for striker</CommitComment>
+	<CommitComment>Working for Goalie (Roboduino) using 3 Pings - averaging is disabled </CommitComment>
+	<CommitComment>Averaging now working</CommitComment>
+	<CommitComment>Averaging code added, still buggy</CommitComment>
+	<CommitComment>basic relay support added.</CommitComment>
+	<CommitComment>light sensors working.</CommitComment>
+	<CommitComment>changes to add light sensor reading. Not working yet.</CommitComment>
+	<CommitComment>Ping support updated, not tested yet</CommitComment>
+	<CommitComment>Initial Commit.</CommitComment>
+</CommitComments>

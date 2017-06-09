@@ -1,0 +1,48 @@
+
+**** Build of configuration Release for project NewPingDemo ****
+
+make all 
+Building file: C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp
+Invoking: AVR C++ Compiler
+avr-g++ -I"C:\arduino-1.0.4\hardware\arduino\cores\arduino" -I"C:\arduino-1.0.4\hardware\arduino\variants\standard" -I"C:\cygwin\home\chris\workspaces\arduino\NewPingDemo" -I"C:\Users\chris\Documents\Arduino\libraries\NewPing" -D__IN_ECLIPSE__=1 -DUSB_VID= -DUSB_PID= -DARDUINO=104 -Wall -Os -ffunction-sections -fdata-sections -fno-exceptions -g -mmcu=atmega328p -DF_CPU=16000000UL -MMD -MP -MF"NewPing/NewPing.d" -MT"NewPing/NewPing.d"  -c -o "NewPing/NewPing.o" -x c++ "C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp"
+Finished building: C:/Users/chris/Documents/Arduino/libraries/NewPing/NewPing.cpp
+ 
+Building file: ../NewPingDemo.cpp
+Invoking: AVR C++ Compiler
+avr-g++ -I"C:\arduino-1.0.4\hardware\arduino\cores\arduino" -I"C:\arduino-1.0.4\hardware\arduino\variants\standard" -I"C:\cygwin\home\chris\workspaces\arduino\NewPingDemo" -I"C:\Users\chris\Documents\Arduino\libraries\NewPing" -D__IN_ECLIPSE__=1 -DUSB_VID= -DUSB_PID= -DARDUINO=104 -Wall -Os -ffunction-sections -fdata-sections -fno-exceptions -g -mmcu=atmega328p -DF_CPU=16000000UL -MMD -MP -MF"NewPingDemo.d" -MT"NewPingDemo.d"  -c -o "NewPingDemo.o" -x c++ "../NewPingDemo.cpp"
+Finished building: ../NewPingDemo.cpp
+ 
+Building target: NewPingDemo.elf
+Invoking: AVR C++ Linker
+avr-gcc -Os -Wl,--gc-sections  -L"C:\cygwin\home\chris\workspaces\arduino\Arduino_Uno/Release" -mmcu=atmega328p  -o"NewPingDemo.elf"  ./NewPing/NewPing.o  ./NewPingDemo.o   -l"Arduino_Uno" -lm
+Finished building target: NewPingDemo.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S NewPingDemo.elf  >"NewPingDemo.lss"
+Finished building: NewPingDemo.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -O ihex NewPingDemo.elf  "NewPingDemo.hex"
+Finished building: NewPingDemo.hex
+ 
+Create eeprom image (ihex format)
+avr-objcopy -j .eeprom --no-change-warnings --change-section-lma .eeprom=0 -O ihex NewPingDemo.elf  "NewPingDemo.eep"
+Finished building: NewPingDemo.eep
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega328p NewPingDemo.elf
+AVR Memory Usage
+----------------
+Device: atmega328p
+
+Program:    3338 bytes (10.2% Full)
+(.text + .data + .bootloader)
+
+Data:        245 bytes (12.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+**** Build Finished ****

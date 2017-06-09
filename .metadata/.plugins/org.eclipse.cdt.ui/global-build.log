@@ -1,0 +1,16 @@
+
+**** Clean-only build of configuration Release for project Arduino_Uno ****
+
+make clean 
+rm -rf  ./arduino/CDC.o ./arduino/HID.o ./arduino/HardwareSerial.o ./arduino/IPAddress.o ./arduino/Print.o ./arduino/Stream.o ./arduino/Tone.o ./arduino/USBCore.o ./arduino/WInterrupts.o ./arduino/WMath.o ./arduino/WString.o ./arduino/main.o ./arduino/malloc.o ./arduino/new.o ./arduino/wiring.o ./arduino/wiring_analog.o ./arduino/wiring_digital.o ./arduino/wiring_pulse.o ./arduino/wiring_shift.o  ./arduino/WInterrupts.d ./arduino/malloc.d ./arduino/wiring.d ./arduino/wiring_analog.d ./arduino/wiring_digital.d ./arduino/wiring_pulse.d ./arduino/wiring_shift.d  libArduino_Uno.lss  ./arduino/CDC.d ./arduino/HID.d ./arduino/HardwareSerial.d ./arduino/IPAddress.d ./arduino/Print.d ./arduino/Stream.d ./arduino/Tone.d ./arduino/USBCore.d ./arduino/WMath.d ./arduino/WString.d ./arduino/main.d ./arduino/new.d  sizedummy  libArduino_Uno.a
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Release for project trackuino ****
+
+make clean 
+rm -rf  ./trackuino/aprs.o ./trackuino/ax25.o ./trackuino/buzzer_avr.o ./trackuino/buzzer_pic32.o ./trackuino/gps.o ./trackuino/modem.o ./trackuino/modem_hal_avr.o ./trackuino/modem_hal_pic32.o ./trackuino/pin_pic32.o ./trackuino/power_avr.o ./trackuino/power_pic32.o ./trackuino/radio.o ./trackuino/radio_hx1.o ./trackuino/radio_mx146.o ./trackuino/sensors_avr.o ./trackuino/sensors_pic32.o ./trackuino/trackuino.o  trackuino.eep  trackuino.hex  trackuino.lss  ./trackuino/aprs.d ./trackuino/ax25.d ./trackuino/buzzer_avr.d ./trackuino/buzzer_pic32.d ./trackuino/gps.d ./trackuino/modem.d ./trackuino/modem_hal_avr.d ./trackuino/modem_hal_pic32.d ./trackuino/pin_pic32.d ./trackuino/power_avr.d ./trackuino/power_pic32.d ./trackuino/radio.d ./trackuino/radio_hx1.d ./trackuino/radio_mx146.d ./trackuino/sensors_avr.d ./trackuino/sensors_pic32.d  ./trackuino/trackuino.d  sizedummy  trackuino.elf
+ 
+
+**** Build Finished ****
